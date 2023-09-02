@@ -1,0 +1,15 @@
+
+airkiss.o:
+00000018 r CRC8_ARRAY
+00000000 t __airkiss_crc8
+0000060c T airkiss_change_channel
+00000598 T airkiss_get_result
+00000028 T airkiss_init
+0000007c T airkiss_recv
+00000020 T airkiss_version
+
+airlink.o:
+00000000 r _AK_LIT_ENDIAN
+00000000 t __airkiss_strlen
+000000e4 T airkiss_lan_pack
+00000014 T airkiss_lan_recv

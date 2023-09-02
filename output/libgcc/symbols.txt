@@ -1,0 +1,390 @@
+
+_mulsi3.o:
+00000000 T __mulsi3	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/config/xtensa/lib1funcs.S:98
+
+_modsi3.o:
+00000000 T __modsi3	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/config/xtensa/lib1funcs.S:717
+
+_clz.o:
+00000000 R __nsau_data
+
+_clzsi2.o:
+00000000 T __clzsi2	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/config/xtensa/lib1funcs.S:465
+
+_ctzsi2.o:
+00000000 T __ctzsi2	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/config/xtensa/lib1funcs.S:478
+
+_ffssi2.o:
+00000000 T __ffssi2	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/config/xtensa/lib1funcs.S:495
+
+_ashldi3.o:
+00000000 T __ashldi3	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/config/xtensa/lib1funcs.S:786
+
+_ashrdi3.o:
+00000000 T __ashrdi3	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/config/xtensa/lib1funcs.S:807
+
+_lshrdi3.o:
+00000000 T __lshrdi3	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/config/xtensa/lib1funcs.S:828
+
+_negsf2.o:
+00000000 T __negsf2	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/config/xtensa/ieee754-sf.S:50
+
+_divsf3.o:
+0000007c T __divsf3	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/config/xtensa/ieee754-sf.S:1015
+00000000 t __divsf3_aux	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/config/xtensa/ieee754-sf.S:941
+
+_cmpsf2.o:
+00000000 T __eqsf2	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/config/xtensa/ieee754-sf.S:1173
+00000094 T __gesf2	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/config/xtensa/ieee754-sf.S:1288
+00000028 T __gtsf2	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/config/xtensa/ieee754-sf.S:1210
+00000048 T __lesf2	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/config/xtensa/ieee754-sf.S:1234
+000000b4 T __ltsf2	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/config/xtensa/ieee754-sf.S:1312
+00000000 T __nesf2	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/config/xtensa/ieee754-sf.S:1173
+00000100 T __unordsf2	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/config/xtensa/ieee754-sf.S:1366
+
+_fixsfsi.o:
+00000000 T __fixsfsi	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/config/xtensa/ieee754-sf.S:1393
+
+_fixsfdi.o:
+00000000 T __fixsfdi	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/config/xtensa/ieee754-sf.S:1445
+
+_fixunssfdi.o:
+00000000 T __fixunssfdi	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/config/xtensa/ieee754-sf.S:1579
+
+_sqrtf.o:
+
+_recipsf2.o:
+
+_rsqrtsf2.o:
+
+_floatdisf.o:
+0000000c T __floatdisf	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/config/xtensa/ieee754-sf.S:1739
+00000000 T __floatundisf	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/config/xtensa/ieee754-sf.S:1725
+
+_floatundisf.o:
+
+_negdf2.o:
+00000000 T __negdf2	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/config/xtensa/ieee754-df.S:50
+
+_cmpdf2.o:
+00000000 T __eqdf2	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/config/xtensa/ieee754-df.S:1604
+000000b8 T __gedf2	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/config/xtensa/ieee754-df.S:1732
+00000030 T __gtdf2	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/config/xtensa/ieee754-df.S:1644
+00000054 T __ledf2	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/config/xtensa/ieee754-df.S:1670
+000000dc T __ltdf2	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/config/xtensa/ieee754-df.S:1758
+00000000 T __nedf2	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/config/xtensa/ieee754-df.S:1604
+00000140 T __unorddf2	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/config/xtensa/ieee754-df.S:1820
+
+_fixdfdi.o:
+00000000 T __fixdfdi	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/config/xtensa/ieee754-df.S:1904
+
+_fixunsdfdi.o:
+00000000 T __fixunsdfdi	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/config/xtensa/ieee754-df.S:2044
+
+_floatdidf.o:
+0000000c T __floatdidf	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/config/xtensa/ieee754-df.S:2194
+00000000 T __floatundidf	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/config/xtensa/ieee754-df.S:2180
+
+_floatundidf.o:
+
+_sqrt.o:
+
+_recipdf2.o:
+
+_rsqrtdf2.o:
+
+_negdi2.o:
+00000000 T __negdi2	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/libgcc2.c:64
+
+_cmpdi2.o:
+00000000 T __cmpdi2	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/libgcc2.c:1184
+
+_ucmpdi2.o:
+00000000 T __ucmpdi2	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/libgcc2.c:1203
+
+_clear_cache.o:
+00000000 T __clear_cache	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/libgcc2.c:2062
+
+_trampoline.o:
+
+__main.o:
+
+_absvsi2.o:
+00000000 T __absvsi2	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/libgcc2.c:217
+         U abort	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/libgcc2.c:228
+
+_absvdi2.o:
+00000000 T __absvdi2	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/libgcc2.c:256
+         U abort	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/libgcc2.c:267
+
+_addvsi3.o:
+00000000 T __addvsi3	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/libgcc2.c:76
+         U abort	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/libgcc2.c:81
+
+_addvdi3.o:
+00000000 T __addvdi3	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/libgcc2.c:101
+         U abort	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/libgcc2.c:106
+
+_subvsi3.o:
+00000000 T __subvsi3	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/libgcc2.c:114
+         U abort	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/libgcc2.c:119
+
+_subvdi3.o:
+00000000 T __subvdi3	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/libgcc2.c:139
+         U abort	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/libgcc2.c:144
+
+_mulvsi3.o:
+         U __muldi3	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/libgcc2.c:154
+00000000 T __mulvsi3	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/libgcc2.c:152
+         U abort	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/libgcc2.c:157
+
+_mulvdi3.o:
+         U __muldi3	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/libgcc2.c:290
+00000000 T __mulvdi3	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/libgcc2.c:276
+         U abort	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/libgcc2.c:394
+
+_negvsi2.o:
+00000000 T __negvsi2	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/libgcc2.c:179
+         U abort	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/libgcc2.c:184
+
+_negvdi2.o:
+00000000 T __negvdi2	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/libgcc2.c:204
+         U abort	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/libgcc2.c:209
+
+_ctors.o:
+
+_ffsdi2.o:
+00000000 T __ffsdi2	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/libgcc2.c:528
+
+_clzdi2.o:
+00000000 T __clzdi2	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/libgcc2.c:717
+
+_ctzdi2.o:
+00000000 T __ctzdi2	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/libgcc2.c:749
+
+_popcount_tab.o:
+00000000 R __popcount_tab	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/libgcc2.c:809
+
+_popcountsi2.o:
+         U __popcount_tab
+00000000 T __popcountsi2	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/libgcc2.c:825
+
+_popcountdi2.o:
+         U __popcount_tab
+00000000 T __popcountdi2	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/libgcc2.c:839
+
+_paritysi2.o:
+00000000 T __paritysi2	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/libgcc2.c:853
+
+_paritydi2.o:
+00000000 T __paritydi2	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/libgcc2.c:874
+
+_powisf2.o:
+         U __divsf3	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/libgcc2.c:1776
+         U __mulsf3	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/libgcc2.c:1772
+00000000 T __powisf2	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/libgcc2.c:1766
+
+_powidf2.o:
+         U __divdf3	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/libgcc2.c:1776
+         U __muldf3	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/libgcc2.c:1772
+00000000 T __powidf2	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/libgcc2.c:1766
+
+_powixf2.o:
+
+_powitf2.o:
+
+_mulsc3.o:
+         U __addsf3	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/libgcc2.c:1880
+         U __eqsf2	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/libgcc2.c:1886
+00000000 T __mulsc3	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/libgcc2.c:1864
+         U __mulsf3	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/libgcc2.c:1869
+         U __nesf2	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/libgcc2.c:1882
+         U __subsf3	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/libgcc2.c:1879
+
+_muldc3.o:
+         U __adddf3	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/libgcc2.c:1880
+         U __eqdf2	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/libgcc2.c:1886
+00000000 T __muldc3	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/libgcc2.c:1864
+         U __muldf3	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/libgcc2.c:1869
+         U __nedf2	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/libgcc2.c:1882
+         U __subdf3	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/libgcc2.c:1879
+
+_mulxc3.o:
+
+_multc3.o:
+
+_divsc3.o:
+         U __addsf3	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/libgcc2.c:1946
+00000000 T __divsc3	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/libgcc2.c:1934
+         U __divsf3	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/libgcc2.c:1945
+         U __eqsf2	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/libgcc2.c:1962
+         U __ltsf2	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/libgcc2.c:1943
+         U __mulsf3	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/libgcc2.c:1946
+         U __nesf2	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/libgcc2.c:1960
+         U __subsf3	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/libgcc2.c:1948
+
+_divdc3.o:
+         U __adddf3	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/libgcc2.c:1946
+00000000 T __divdc3	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/libgcc2.c:1934
+         U __divdf3	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/libgcc2.c:1945
+         U __eqdf2	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/libgcc2.c:1962
+         U __ltdf2	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/libgcc2.c:1943
+         U __muldf3	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/libgcc2.c:1946
+         U __nedf2	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/libgcc2.c:1960
+         U __subdf3	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/libgcc2.c:1948
+
+_divxc3.o:
+
+_divtc3.o:
+
+_bswapsi2.o:
+00000000 T __bswapsi2	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/libgcc2.c:488
+
+_bswapdi2.o:
+00000000 T __bswapdi2	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/libgcc2.c:498
+
+_clrsbsi2.o:
+00000000 T __clrsbsi2	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/libgcc2.c:768
+
+_clrsbdi2.o:
+00000000 T __clrsbdi2	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/libgcc2.c:784
+
+_fixunsxfsi.o:
+
+_fixxfdi.o:
+
+_fixtfdi.o:
+
+_fixunsxfdi.o:
+
+_fixunstfdi.o:
+
+_floatdixf.o:
+
+_floatditf.o:
+
+_floatundixf.o:
+
+_floatunditf.o:
+
+_eprintf.o:
+
+__gcc_bcmp.o:
+00000000 T __gcc_bcmp	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/libgcc2.c:2021
+
+_moddi3.o:
+00000000 T __moddi3	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/libgcc2.c:1141
+         U __udivsi3	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/libgcc2.c:969
+         U __umodsi3	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/libgcc2.c:969
+         U __umulsidi3	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/libgcc2.c:1088
+
+_udiv_w_sdiv.o:
+00000000 T __udiv_w_sdiv	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/libgcc2.c:672
+
+_udivmoddi4.o:
+00000000 T __udivmoddi4	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/libgcc2.c:902
+         U __udivsi3	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/libgcc2.c:969
+         U __umodsi3	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/libgcc2.c:969
+         U __umulsidi3	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/libgcc2.c:1088
+
+lib2funcs.o:
+00000000 T __xtensa_sync_caches	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/config/xtensa/lib2funcs.S:206
+
+enable-execute-stack.o:
+00000000 T __enable_execute_stack	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/xtensa-lx106-elf/build/build-cc-gcc-final/xtensa-lx106-elf/libgcc/enable-execute-stack.c:8
+
+unwind-dw2.o:
+00001e14 T _Unwind_Backtrace	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/unwind.inc:278
+00001b64 t _Unwind_DebugHook	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/unwind-dw2.c:1599
+00001dfc T _Unwind_DeleteException	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/unwind.inc:268
+00001a84 T _Unwind_FindEnclosingFunction	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/unwind-dw2.c:377
+         U _Unwind_Find_FDE	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/unwind-dw2.c:1241
+00001c54 T _Unwind_ForcedUnwind	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/unwind.inc:195
+000017d8 t _Unwind_ForcedUnwind_Phase2	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/unwind.inc:142
+000019fc T _Unwind_GetCFA	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/unwind-dw2.c:257
+00001aa4 T _Unwind_GetDataRelBase	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/unwind-dw2.c:389
+000019bc T _Unwind_GetGR	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/unwind-dw2.c:220
+00001a54 T _Unwind_GetIP	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/unwind-dw2.c:341
+00001a5c T _Unwind_GetIPInfo	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/unwind-dw2.c:350
+00001a74 T _Unwind_GetLanguageSpecificData	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/unwind-dw2.c:365
+00001a7c T _Unwind_GetRegionStart	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/unwind-dw2.c:371
+00001aac T _Unwind_GetTextRelBase	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/unwind-dw2.c:395
+00001b68 T _Unwind_RaiseException	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/unwind.inc:82
+00001748 t _Unwind_RaiseException_Phase2	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/unwind.inc:38
+00001cdc T _Unwind_Resume	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/unwind.inc:219
+00001d6c T _Unwind_Resume_or_Rethrow	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/unwind.inc:244
+00001a04 T _Unwind_SetGR	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/unwind-dw2.c:265
+00001a6c T _Unwind_SetIP	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/unwind-dw2.c:359
+         U __divsi3	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/unwind-dw2.c:838
+00001ab4 T __frame_state_for	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/unwind-dw2.c:1313
+         U __umodsi3	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/unwind-dw2.c:844
+         U abort	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/unwind-dw2.c:1217
+00000000 b dwarf_reg_size_table	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/unwind-dw2.c:148
+00000038 t execute_cfa_program	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/unwind-dw2.c:934
+00000cd4 t execute_stack_op	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/unwind-dw2.c:510
+         U memcpy	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/unwind-dw2.c:1069
+         U memset	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/unwind-dw2.c:1234
+00000000 t read_sleb128	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/unwind-pe.h:153
+         U strlen	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/unwind-dw2.c:412
+000007e0 t uw_frame_state_for	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/unwind-dw2.c:1228
+000015ec t uw_init_context_1	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/unwind-dw2.c:1549
+00001888 t uw_install_context_1	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/unwind-dw2.c:1626
+000016ec t uw_update_context	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/unwind-dw2.c:1500
+00001350 t uw_update_context_1	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/unwind-dw2.c:1377
+
+unwind-dw2-fde.o:
+00000da0 T _Unwind_Find_FDE	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/unwind-dw2-fde.c:999
+00000d84 T __deregister_frame	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/unwind-dw2-fde.c:227
+00000d74 T __deregister_frame_info	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/unwind-dw2-fde.c:221
+00000ce4 T __deregister_frame_info_bases	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/unwind-dw2-fde.c:173
+00000c3c T __register_frame	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/unwind-dw2-fde.c:110
+00000c18 T __register_frame_info	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/unwind-dw2-fde.c:104
+00000bf8 T __register_frame_info_bases	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/unwind-dw2-fde.c:77
+00000c94 T __register_frame_info_table	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/unwind-dw2-fde.c:148
+00000c78 T __register_frame_info_table_bases	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/unwind-dw2-fde.c:127
+00000cb0 T __register_frame_table	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/unwind-dw2-fde.c:154
+         U abort	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/unwind-pe.h:88
+000006b0 t add_fdes	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/unwind-dw2-fde.c:663
+000003ac t base_from_object$isra$4	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/unwind-dw2-fde.c:239
+00000458 t classify_object_over_fdes	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/unwind-dw2-fde.c:606
+0000062c t fde_mixed_encoding_compare	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/unwind-dw2-fde.c:361
+000003f4 t fde_single_encoding_compare	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/unwind-dw2-fde.c:345
+0000035c t fde_unencoded_compare	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/unwind-dw2-fde.c:330
+00000038 t frame_downheap	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/unwind-dw2-fde.c:486
+000000c0 t frame_heapsort	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/unwind-dw2-fde.c:512
+         U free	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/unwind-dw2-fde.c:590
+00000294 t get_cie_encoding	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/unwind-dw2-fde.c:264
+00000540 t linear_search_fdes	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/unwind-dw2-fde.c:798
+         U malloc	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/unwind-dw2-fde.c:409
+00000000 b marker$3681
+00000184 t read_encoded_value_with_base	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/unwind-pe.h:181
+00000000 t read_sleb128	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/unwind-pe.h:153
+000007a0 t search_object	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/unwind-dw2-fde.c:955
+0000000c b seen_objects	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/unwind-dw2-fde.c:45
+00000144 t size_of_encoded_value	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/unwind-pe.h:72
+         U strlen	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/unwind-dw2-fde.c:272
+00000004 b terminator$3787
+00000010 b unseen_objects	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/unwind-dw2-fde.c:44
+
+unwind-sjlj.o:
+
+unwind-c.o:
+         U _Unwind_GetDataRelBase	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/unwind-pe.h:116
+         U _Unwind_GetIP	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/unwind-c.c:163
+         U _Unwind_GetLanguageSpecificData	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/unwind-c.c:151
+         U _Unwind_GetRegionStart	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/unwind-pe.h:118
+         U _Unwind_GetTextRelBase	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/unwind-pe.h:114
+         U _Unwind_SetGR	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/unwind-c.c:229
+         U _Unwind_SetIP	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/unwind-c.c:232
+0000018c T __gcc_personality_v0	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/unwind-c.c:120
+         U abort	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/unwind-pe.h:120
+00000000 t base_of_encoded_value	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/unwind-pe.h:101
+00000064 t read_encoded_value_with_base	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/unwind-pe.h:181
+
+emutls.o:
+00000000 T __emutls_get_address	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/emutls.c:127
+00000078 T __emutls_register_common	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/emutls.c:191
+         U abort	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/emutls.c:104
+         U malloc	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/emutls.c:102
+         U memcpy	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/emutls.c:119
+         U memset	/home/wjg/Repo/esp-open-sdk-20170622/crosstool-NG/.build/src/gcc-4.8.5/libgcc/emutls.c:121

@@ -1,0 +1,30 @@
+
+jsonparse.o:
+         U atoi
+         U atol
+         U ets_strlen
+         U ets_strncmp
+00000098 T jsonparse_copy_value
+000001c0 T jsonparse_get_len
+000001c4 T jsonparse_get_type
+000000fc T jsonparse_get_value_as_int
+00000124 T jsonparse_get_value_as_long
+0000014c T jsonparse_get_value_as_ulong
+00000378 T jsonparse_has_next
+000001d4 T jsonparse_next
+00000084 T jsonparse_setup
+0000017c T jsonparse_strcmp_value
+         U strtoul
+
+jsontree.o:
+         U __divsi3
+         U __modsi3
+00000304 T jsontree_find_next
+00000194 T jsontree_path_name
+000001c4 T jsontree_print_next
+00000184 T jsontree_reset
+00000170 T jsontree_setup
+00000000 T jsontree_write_atom
+00000090 T jsontree_write_int
+00000108 T jsontree_write_int_array
+00000038 T jsontree_write_string

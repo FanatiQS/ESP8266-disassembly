@@ -1,0 +1,318 @@
+
+sc_sniffer.o:
+00000000 D ET_Broadcast_bssid	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_sniffer.c:46
+00000000 D ET_Multicast_bssid	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_sniffer.c:45
+         U KISS_Deal_with	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_sniffer.c:174
+         U KISS_Find_channel	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_sniffer.c:174
+         U KISS_Free_Glob_Diret	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_sniffer.c:95
+         U KISS_Free_Glob_Trans	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_sniffer.c:95
+         U KISS_Free_guide_glob	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_sniffer.c:95
+         U KISS_Init_guide_glob	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_sniffer.c:73
+         U KissRes_ht20_timer	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_sniffer.c:95
+0000017a R SC_VERSION	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_sniffer.c:40
+00000000 B SnifGlob	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_sniffer.c:39
+         U TOUCH_Deal_with	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_sniffer.c:174
+         U TOUCH_Find_sync_ht20	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_sniffer.c:174
+         U TOUCH_Find_sync_ht40	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_sniffer.c:174
+         U TOUCH_Free_glob	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_sniffer.c:95
+         U TOUCH_Free_guide_glob	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_sniffer.c:95
+         U TOUCH_Init_guide_glob	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_sniffer.c:73
+         U TouchRestart_ht20_timer	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_sniffer.c:95
+         U TouchRestart_ht40_timer	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_sniffer.c:95
+         U TouchUdpTimer	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_sniffer.c:95
+00000014 C channel_timer
+         U espconn_delete	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_sniffer.c:95
+00000b28 T esptouch_set_timeout	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_sniffer.c:653
+         U ets_memcmp	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_sniffer.c:493
+         U ets_memcpy	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_sniffer.c:493
+         U ets_timer_arm_new	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_sniffer.c:129
+         U ets_timer_disarm	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_sniffer.c:120
+         U ets_timer_setfn	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_sniffer.c:493
+00000164 r flash_str$3519
+0000014c r flash_str$3530
+00000138 r flash_str$3551
+00000120 r flash_str$3569
+00000108 r flash_str$3573
+000000f0 r flash_str$3577
+000000dc r flash_str$3581
+000000ac r flash_str$3594
+00000098 r flash_str$3595
+00000080 r flash_str$3596
+0000006c r flash_str$3597
+0000005c r flash_str$3608
+00000048 r flash_str$3614
+00000034 r flash_str$3621
+00000020 r flash_str$3625
+00000000 r flash_str$3626
+         U g_ET_TimeOut	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_sniffer.c:650
+00000000 D g_SC_Select	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_sniffer.c:48
+         U os_printf_plus	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_sniffer.c:174
+         U pAKGuideGlob	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_sniffer.c:95
+00000000 B pAPListHead	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_sniffer.c:42
+00000000 B pAPListTral	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_sniffer.c:43
+         U pAkDiret	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_sniffer.c:95
+         U pAkTrans	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_sniffer.c:95
+         U pETGuideGlob
+         U pKissConn	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_sniffer.c:95
+         U pTouchConn	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_sniffer.c:95
+         U pTouchGlob	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_sniffer.c:95
+         U pvPortZalloc	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_sniffer.c:109
+00000000 d sScanTime	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_sniffer.c:244
+00000000 d sScanTimeMax	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_sniffer.c:245
+00000134 T sc_PackCallback	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_sniffer.c:184
+00000028 T sc_channel_timer_cb	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_sniffer.c:117
+00000334 T sc_free_snif_glob	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_sniffer.c:82
+00000660 T sc_init_snif_glob	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_sniffer.c:59
+00000618 T sc_smartconfig_restart	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_sniffer.c:104
+00000208 T sc_system_init_done	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_sniffer.c:400
+00000890 T sc_wifi_scan_done	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_sniffer.c:248
+00000004 C smartconfig_cb
+00000260 T smartconfig_get_status	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_sniffer.c:586
+00000b14 T smartconfig_get_version	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_sniffer.c:647
+00000b74 T smartconfig_set_type	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_sniffer.c:667
+0000070c T smartconfig_start	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_sniffer.c:423
+00000430 T smartconfig_stop	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_sniffer.c:496
+         U system_get_free_heap_size	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_sniffer.c:95
+         U system_init_done_cb	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_sniffer.c:73
+         U system_overclock	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_sniffer.c:73
+         U system_restoreclock	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_sniffer.c:95
+         U user_init_flag	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_sniffer.c:73
+         U vPortFree	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_sniffer.c:644
+         U weixin_timer	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_sniffer.c:95
+         U wifi_get_opmode	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_sniffer.c:73
+         U wifi_promiscuous_enable	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_sniffer.c:95
+         U wifi_set_channel	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_sniffer.c:125
+         U wifi_set_promiscuous_rx_cb	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_sniffer.c:493
+         U wifi_station_dhcpc_status	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_sniffer.c:73
+         U wifi_station_disconnect	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_sniffer.c:242
+         U wifi_station_scan	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_sniffer.c:242
+
+sc_esptouch.o:
+         U ET_Broadcast_bssid	sc_esptouch.c:0
+         U ET_Multicast_bssid	sc_esptouch.c:0
+         U SnifGlob	sc_esptouch.c:0
+00000eb0 T TOUCH_Deal_with	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_esptouch.c:1253
+000005a8 T TOUCH_Find_sync_ht20	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_esptouch.c:202
+0000096c T TOUCH_Find_sync_ht40	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_esptouch.c:754
+000004e8 T TOUCH_Free_glob	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_esptouch.c:185
+000003f0 T TOUCH_Free_guide_glob	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_esptouch.c:128
+00000470 T TOUCH_Init_glob	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_esptouch.c:155
+00000344 T TOUCH_Init_guide_glob	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_esptouch.c:90
+00000088 t TOUCH_Send_ACK	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_esptouch.c:1416
+0000017c t TOUCH_Send_platform	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_esptouch.c:1362
+0000003c t TOUCH_udp_recv_cb	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_esptouch.c:1411
+00000278 t TOUCH_udp_send_cb	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_esptouch.c:1391
+00000014 C TouchRestart_ht20_timer
+00000014 C TouchRestart_ht40_timer
+00000014 C TouchUdpTimer
+         U __divsi3	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_esptouch.c:374
+         U channel_timer	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_esptouch.c:374
+         U espconn_create	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_esptouch.c:1412
+         U espconn_delete	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_esptouch.c:1388
+         U espconn_port	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_esptouch.c:1412
+         U espconn_regist_recvcb	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_esptouch.c:1412
+         U espconn_regist_sentcb	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_esptouch.c:1412
+         U espconn_sent	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_esptouch.c:1434
+         U ets_memcmp	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_esptouch.c:193
+         U ets_memcpy	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_esptouch.c:1412
+         U ets_memset	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_esptouch.c:193
+         U ets_strlen	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_esptouch.c:897
+         U ets_timer_arm_new	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_esptouch.c:1412
+         U ets_timer_disarm	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_esptouch.c:1412
+         U ets_timer_setfn	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_esptouch.c:1412
+000003b8 r flash_str$3451
+00000394 r flash_str$3452
+0000037c r flash_str$3453
+00000358 r flash_str$3454
+0000033c r flash_str$3465
+00000314 r flash_str$3466
+00000300 r flash_str$3493
+000002f0 r flash_str$3502
+000002e0 r flash_str$3503
+000002c8 r flash_str$3504
+0000029c r flash_str$3505
+00000270 r flash_str$3506
+00000260 r flash_str$3507
+0000024c r flash_str$3530
+00000240 r flash_str$3531
+00000234 r flash_str$3532
+00000220 r flash_str$3534
+0000020c r flash_str$3536
+000001e8 r flash_str$3538
+000001d0 r flash_str$3539
+000001c8 r flash_str$3554
+000001b8 r flash_str$3558
+000001a8 r flash_str$3559
+00000198 r flash_str$3575
+00000188 r flash_str$3576
+0000017c r flash_str$3577
+00000174 r flash_str$3578
+00000170 r flash_str$3582
+00000160 r flash_str$3609
+0000014c r flash_str$3619
+00000134 r flash_str$3620
+00000114 r flash_str$3621
+00000108 r flash_str$3653
+000000fc r flash_str$3654
+000000ec r flash_str$3656
+000000d8 r flash_str$3657
+000000c0 r flash_str$3665
+0000009c r flash_str$3666
+00000084 r flash_str$3667
+0000007c r flash_str$3682
+0000006c r flash_str$3686
+0000005c r flash_str$3687
+00000048 r flash_str$3700
+00000038 r flash_str$3704
+00000028 r flash_str$3705
+0000001c r flash_str$3706
+00000014 r flash_str$3707
+00000010 r flash_str$3711
+00000000 r flash_str$3742
+00000000 D g_ET_TimeOut	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_esptouch.c:33
+00000000 t get_crc_bytes	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_esptouch.c:64
+00000000 b ip$3747
+         U memcmp	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_esptouch.c:193
+         U memcpy	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_esptouch.c:193
+         U os_printf_plus	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_esptouch.c:1434
+         U pAPListHead	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_esptouch.c:897
+00000000 B pCHListHead	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_esptouch.c:52
+00000000 B pCHListTral	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_esptouch.c:53
+00000000 B pETGuideGlob	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_esptouch.c:41
+00000000 B pTouchConn	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_esptouch.c:49
+00000000 B pTouchGlob	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_esptouch.c:40
+         U pvPortZalloc	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_esptouch.c:1412
+         U sc_smartconfig_restart	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_esptouch.c:374
+         U smartconfig_cb	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_esptouch.c:897
+00000000 b sta_conf	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_esptouch.c:38
+         U vPortFree	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_esptouch.c:1434
+         U wifi_get_channel	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_esptouch.c:193
+         U wifi_get_ip_info	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_esptouch.c:1434
+         U wifi_get_macaddr	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_esptouch.c:1434
+         U wifi_promiscuous_enable	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_esptouch.c:897
+         U wifi_set_channel	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_esptouch.c:193
+         U wifi_station_get_connect_status	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_esptouch.c:1434
+
+sc_airkiss.o:
+00000000 D AK_Group_bssid	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_airkiss.c:48
+00000000 R DATA_RSSI_BEAR	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_airkiss.c:44
+00001bf4 T KISS_Deal_with	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_airkiss.c:1348
+000014b8 t KISS_Deal_with_ht20	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_airkiss.c:1248
+00001360 T KISS_Find_channel	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_airkiss.c:656
+00000fd4 T KISS_Find_channel_direct	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_airkiss.c:457
+00000970 T KISS_Find_channel_end	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_airkiss.c:180
+00000b9c T KISS_Find_channel_trans	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_airkiss.c:270
+0000089c T KISS_Free_Glob_Diret	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_airkiss.c:134
+00000864 T KISS_Free_Glob_Trans	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_airkiss.c:125
+0000073c T KISS_Free_guide_glob	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_airkiss.c:83
+00000084 t KISS_Get_sequ_data	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_airkiss.c:949
+00000804 T KISS_Init_Glob_Diret	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_airkiss.c:109
+0000078c T KISS_Init_Glob_Trans	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_airkiss.c:93
+000006e0 T KISS_Init_guide_glob	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_airkiss.c:61
+0000057c t KISS_Send_udp	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_airkiss.c:1377
+00000658 t KISS_Udp_send_cb	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_airkiss.c:1405
+00000014 C KissRes_ht20_timer
+00000000 R RSSI_BEAR	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_airkiss.c:43
+00000000 R RSSI_MIN	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_airkiss.c:42
+         U SnifGlob	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_airkiss.c:663
+         U channel_timer	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_airkiss.c:454
+         U espconn_create	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_airkiss.c:663
+         U espconn_delete	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_airkiss.c:1402
+         U espconn_port	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_airkiss.c:663
+         U espconn_regist_sentcb	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_airkiss.c:663
+         U espconn_sent	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_airkiss.c:1239
+         U ets_memcmp	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_airkiss.c:141
+         U ets_memcpy	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_airkiss.c:1239
+         U ets_memset	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_airkiss.c:267
+         U ets_strlen	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_airkiss.c:663
+         U ets_timer_arm_new	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_airkiss.c:141
+         U ets_timer_disarm	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_airkiss.c:1402
+         U ets_timer_setfn	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_airkiss.c:141
+000003c0 r flash_str$3418
+0000039c r flash_str$3419
+00000380 r flash_str$3426
+0000035c r flash_str$3427
+00000340 r flash_str$3431
+0000031c r flash_str$3432
+0000030c r flash_str$3459
+00000304 r flash_str$3460
+00000300 r flash_str$3464
+000002f0 r flash_str$3466
+000002dc r flash_str$3467
+000002cc r flash_str$3468
+000002c0 r flash_str$3469
+000002b8 r flash_str$3471
+000002b4 r flash_str$3475
+000002a0 r flash_str$3476
+0000028c r flash_str$3481
+00000284 r flash_str$3498
+00000270 r flash_str$3499
+00000268 r flash_str$3500
+0000025c r flash_str$3504
+00000254 r flash_str$3505
+0000024c r flash_str$3506
+00000248 r flash_str$3510
+00000240 r flash_str$3511
+00000238 r flash_str$3512
+00000234 r flash_str$3516
+00000228 r flash_str$3520
+00000220 r flash_str$3548
+00000210 r flash_str$3550
+000001f8 r flash_str$3551
+000001e8 r flash_str$3552
+000001d8 r flash_str$3553
+000001d0 r flash_str$3555
+000001c0 r flash_str$3559
+000001b8 r flash_str$3560
+000001b4 r flash_str$3564
+000001a0 r flash_str$3565
+00000188 r flash_str$3566
+00000174 r flash_str$3592
+00000160 r flash_str$3596
+00000150 r flash_str$3616
+00000140 r flash_str$3617
+00000130 r flash_str$3619
+00000120 r flash_str$3620
+00000108 r flash_str$3623
+000000f0 r flash_str$3627
+000000dc r flash_str$3628
+000000d0 r flash_str$3648
+000000c4 r flash_str$3649
+000000b4 r flash_str$3655
+000000a4 r flash_str$3656
+00000098 r flash_str$3657
+00000088 r flash_str$3663
+00000078 r flash_str$3664
+0000006c r flash_str$3665
+0000005c r flash_str$3670
+0000004c r flash_str$3671
+00000040 r flash_str$3672
+00000034 r flash_str$3695
+00000030 r flash_str$3696
+00000024 r flash_str$3700
+00000020 r flash_str$3701
+0000001c r flash_str$3708
+0000000c r flash_str$3723
+00000000 r flash_str$3733
+00000000 t get_crc_bytes	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_airkiss.c:152
+         U os_printf_plus	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_airkiss.c:170
+00000000 B pAKGuideGlob	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_airkiss.c:38
+         U pAPListHead	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_airkiss.c:663
+00000000 B pAkDiret	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_airkiss.c:36
+00000000 B pAkTrans	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_airkiss.c:37
+00000000 B pKissConn	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_airkiss.c:33
+         U pvPortZalloc	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_airkiss.c:1239
+         U sc_channel_timer_cb	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_airkiss.c:267
+         U sc_smartconfig_restart	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_airkiss.c:454
+         U smartconfig_cb	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_airkiss.c:663
+00000000 b sta_conf	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_airkiss.c:40
+         U vPortFree	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_airkiss.c:1239
+00000000 R weixin_ip	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_airkiss.c:1426
+00000014 C weixin_timer
+00000000 b weixin_token	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_airkiss.c:41
+         U wifi_get_channel	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_airkiss.c:267
+         U wifi_get_ip_info	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_airkiss.c:1239
+         U wifi_get_macaddr	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_airkiss.c:1239
+         U wifi_promiscuous_enable	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_airkiss.c:663
+         U wifi_set_channel	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_airkiss.c:141
+         U wifi_station_get_connect_status	/home/cwhaiyi/gitlab/NONOS/ESP8266_NONOS_SDK/third_party/smartconfig/sc_airkiss.c:1239

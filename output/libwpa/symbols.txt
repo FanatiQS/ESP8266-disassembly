@@ -1,0 +1,282 @@
+
+wpa_auth_ie.o:
+         U ets_memcpy
+         U ets_memset
+         U pvPortMalloc
+         U rsn_cipher_put_suites
+         U vPortFree
+00000008 T wpa_add_kde
+0000001c T wpa_auth_gen_wpa_ie
+00000000 T wpa_auth_uses_mfp
+         U wpa_cipher_put_suites
+         U wpa_cipher_to_suite
+00000014 T wpa_parse_kde_ies
+         U wpa_parse_wpa_ie_rsn
+         U wpa_parse_wpa_ie_wpa
+00000024 T wpa_validate_wpa_ie
+0000000c T wpa_write_rsn_ie
+
+wpa_debug.o:
+00000000 T eloop_cancel_timeout
+00000000 T eloop_register_timeout
+         U ets_snprintf
+00000008 T wpa_snprintf_hex
+00000008 T wpa_snprintf_hex_uppercase
+
+sta_info.o:
+
+ieee802_1x.o:
+         U ap_get_sta
+00000008 T ieee802_1x_receive
+         U wpa_receive
+
+wpa_auth.o:
+         U __divsi3
+         U __modsi3
+0000007c T __wpa_send_eapol
+         U aes_wrap
+         U ccmp
+         U cnx_node_search
+         U eloop_cancel_timeout
+         U eloop_register_timeout
+         U ethbroadcast
+         U ets_bzero
+         U ets_memcmp
+         U ets_memcpy
+         U ets_memset
+         U ets_timer_arm_new
+         U ets_timer_disarm
+         U ets_timer_setfn
+         U g_ic
+         U hostapd_get_psk
+         U ic_remove_key
+         U ic_set_key
+         U ieee80211_output_pbuf
+         U inc_byte_array
+         U os_get_random
+         U pbuf_alloc
+         U pvPortMalloc
+         U pvPortZalloc
+         U rc4_skip
+00000014 C resend_eapol
+0000000c T resend_eapol_handle
+         U rsn_pmkid
+         U sha1_prf
+         U system_get_string_from_flash
+         U tkip
+         U vPortFree
+         U wep
+         U wpa_add_kde
+00000000 T wpa_auth_for_each_sta
+         U wpa_auth_gen_wpa_ie
+00000010 T wpa_auth_sm_event
+0000000c T wpa_auth_sta_associated
+00000004 T wpa_auth_sta_deinit
+00000014 T wpa_auth_sta_init
+00000000 T wpa_auth_sta_no_wpa
+         U wpa_cipher_key_len
+         U wpa_cipher_to_alg
+         U wpa_compare_rsn_ie
+         U wpa_eapol_key_mic
+         U wpa_get_ntp_timestamp
+00000034 T wpa_init
+         U wpa_parse_kde_ies
+         U wpa_pmk_to_ptk
+00000078 T wpa_receive
+00000010 T wpa_remove_ptk
+
+common.o:
+0000000c T dup_binstr
+         U ets_memcpy
+         U ets_strlen
+         U ets_strrchr
+00000008 T hex2byte
+00000004 T hexstr2bin
+00000000 T inc_byte_array
+         U os_get_time
+         U pvPortMalloc
+         U vPortFree
+0000002c T wpa_config_parse_string
+0000001c T wpa_get_ntp_timestamp
+
+wpas_glue.o:
+         U ets_memcpy
+         U ets_memset
+         U pbuf_alloc
+0000000c T wpa_sm_alloc_eapol
+00000000 T wpa_sm_deauthenticate
+00000000 T wpa_sm_disassociate
+00000000 T wpa_sm_get_beacon_ie
+00000000 T wpa_sm_mlme_setprotection
+
+wpa_ie.o:
+         U ets_memset
+00000000 T wpa_gen_wpa_ie
+00000008 T wpa_parse_wpa_ie
+         U wpa_parse_wpa_ie_rsn
+         U wpa_parse_wpa_ie_wpa
+00000014 T wpa_supplicant_parse_ies
+
+ap_config.o:
+         U ets_bzero
+         U ets_memcmp
+         U ets_memcpy
+         U ets_strlen
+         U g_ic
+00000018 T hostapd_config_defaults
+00000004 T hostapd_config_defaults_bss
+00000004 T hostapd_get_psk
+00000004 T hostapd_mac_comp
+00000008 T hostapd_mac_comp_empty
+00000004 T hostapd_maclist_found
+00000000 T hostapd_rate_found
+00000014 T hostapd_setup_wpa_psk
+00000004 T hostapd_wep_key_cmp
+         U pvPortZalloc
+         U vPortFree
+
+wpa.o:
+         U aes_unwrap
+00000074 T eapol_txcb
+         U eloop_cancel_timeout
+         U eloop_register_timeout
+         U ets_bzero
+         U ets_delay_us
+         U ets_memcmp
+         U ets_memcpy
+         U ets_memset
+         U ets_strlen
+         U ets_timer_arm_new
+         U ets_timer_disarm
+         U ets_timer_setfn
+         U g_ic
+         U hexstr2bin
+         U inc_byte_array
+         U memcmp
+         U memset
+         U os_get_random
+         U pbkdf2_sha1
+00000048 T pp_michael_mic_failure
+         U rc4_skip
+         U system_get_string_from_flash
+         U system_overclock
+         U system_restoreclock
+         U system_soft_wdt_restart
+         U system_soft_wdt_stop
+         U wifi_station_save_pmk2cache
+         U wpa_compare_rsn_ie
+         U wpa_deauth_disaonnect
+         U wpa_eapol_key_mic
+         U wpa_gen_wpa_ie
+         U wpa_pmk_to_ptk
+00000008 T wpa_register
+00000064 T wpa_set_bss
+00000008 T wpa_set_pmk
+00000004 T wpa_set_profile
+         U wpa_sm_alloc_eapol
+         U wpa_sm_deauthenticate
+         U wpa_sm_disassociate
+         U wpa_sm_get_beacon_ie
+         U wpa_sm_mlme_setprotection
+00000134 T wpa_sm_rx_eapol
+0000000c T wpa_sm_set_state
+         U wpa_supplicant_parse_ies
+
+wpa_common.o:
+         U ets_memcmp
+         U ets_memcpy
+         U ets_memset
+         U hmac_md5
+         U hmac_sha1
+         U hmac_sha1_vector
+00000000 T rsn_cipher_put_suites
+00000014 T rsn_pmkid
+         U sha1_prf
+         U system_get_string_from_flash
+00000000 T wpa_cipher_key_len
+00000000 T wpa_cipher_put_suites
+00000000 T wpa_cipher_to_alg
+0000002c T wpa_cipher_to_suite
+00000004 T wpa_compare_rsn_ie
+0000000c T wpa_eapol_key_mic
+00000014 T wpa_parse_wpa_ie_rsn
+00000018 T wpa_parse_wpa_ie_wpa
+00000024 T wpa_pmk_to_ptk
+
+os_xtensa.o:
+         U ets_memcpy
+00000010 T ets_strdup
+         U ets_strlen
+00000004 T os_get_random
+00000000 T os_get_time
+00000004 T os_random
+         U phy_get_rand
+         U pvPortMalloc
+00000004 T r_rand
+
+wpabuf.o:
+         U ets_memcpy
+         U ets_memset
+         U ets_printf
+         U ets_vsnprintf
+         U pvPortRealloc
+         U pvPortZalloc
+         U vPortFree
+00000008 T wpabuf_alloc
+00000008 T wpabuf_alloc_copy
+00000008 T wpabuf_alloc_ext_data
+00000014 T wpabuf_concat
+00000008 T wpabuf_dup
+0000000c T wpabuf_free
+0000000c T wpabuf_printf
+00000008 T wpabuf_put
+00000018 T wpabuf_resize
+00000014 T wpabuf_zeropad
+
+wpa_main.o:
+         U ccmp
+00000004 T dhcp_bind_check
+         U dhcp_start
+         U dhcpc_flag
+00000090 T eagle_auth_done
+         U eapol_txcb
+         U ets_bzero
+         U ets_memcpy
+         U ets_post
+         U ets_timer_arm_new
+         U ets_timer_disarm
+         U ets_timer_setfn
+         U event_cb
+         U g_ic
+         U ic_get_key
+         U ic_set_key
+         U ieee80211_output_pbuf
+         U ieee80211_send_mgmt
+         U ieee80211_sta_new_state
+         U info
+         U netif_set_addr
+         U netif_set_up
+         U no_ap_found_index
+         U os_printf_plus
+00000004 T ppGetKey
+00000034 T ppInstallKey
+         U ppRegisterTxCallback
+         U pvPortMalloc
+         U pvPortZalloc
+         U sta_status_set
+         U system_station_got_ip_set
+         U tkip
+         U vPortFree
+         U wDev_remove_KeyEntry
+         U wep
+         U wifi_station_save_ap_channel
+         U wifi_station_save_bssid
+00000024 T wpa_attach
+00000004 T wpa_config_assoc_ie
+00000004 T wpa_config_bss
+00000004 T wpa_config_profile
+0000000c T wpa_deauth_disaonnect
+00000004 T wpa_neg_complete
+         U wpa_register
+         U wpa_set_bss
+         U wpa_set_profile

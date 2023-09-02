@@ -33,6 +33,7 @@ endif
 
 # Downloads compiler toolchain
 xtensa-lx106-elf:
+	echo "Downloading Xtensa compiler toolchain"
 	$(CURL) -o $(XTENSA_FILE) https://dl.espressif.com/dl/$(XTENSA_FILE)
 	$(UNZIP) $(XTENSA_FILE)
 	rm $(XTENSA_FILE)
@@ -46,6 +47,7 @@ $(OUT_DIR)/%.S: $(OUT_DIR)/%.o | xtensa-lx106-elf
 # Extracts object files from static library
 $(OUT_DIR)/%: | $(OUT_DIR) xtensa-lx106-elf
 	echo "Extracting $*"
+	xtensa-lx106-elf/bin/xtensa-lx106-elf-nm -l ESP8266_NONOS_SDK/lib/$*.a > $@/symbols.txt
 	mkdir -p $@
 	cd $@ && xtensa-lx106-elf/bin/xtensa-lx106-elf-ar -x ../../ESP8266_NONOS_SDK/lib/$*.a
 	for file in $@/*.o; do $(MAKE) $${file%.o}.S; done

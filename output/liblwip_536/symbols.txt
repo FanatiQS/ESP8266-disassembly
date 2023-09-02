@@ -1,0 +1,879 @@
+
+api_lib.o:
+
+api_msg.o:
+
+autoip.o:
+
+def.o:
+
+dhcp.o:
+         U __divsi3
+         U __udivsi3
+000007fc T dhcp_arp_reply
+000005c4 T dhcp_cleanup
+000002c8 T dhcp_coarse_tmr
+00000320 T dhcp_fine_tmr
+000006fc T dhcp_inform
+000007b4 T dhcp_network_changed
+00000f08 T dhcp_release
+00000b74 T dhcp_renew
+00000010 B dhcp_rx_options_given
+00000020 B dhcp_rx_options_val
+00000598 T dhcp_set_struct
+00000618 T dhcp_start
+00000fdc T dhcp_stop
+         U dns_setserver
+         U etharp_query
+         U ets_memset
+         U ets_strlen
+         U ip_addr_any
+         U ip_addr_broadcast
+00000000 B manual_set_flag
+         U netif_list
+         U netif_set_down
+         U netif_set_gw
+         U netif_set_ipaddr
+         U netif_set_netmask
+         U netif_set_up
+         U os_printf_plus
+         U pbuf_alloc
+         U pbuf_copy_partial
+         U pbuf_free
+         U pbuf_realloc
+         U pvPortMalloc
+         U system_station_got_ip_set
+         U udp_bind
+         U udp_connect
+         U udp_new
+         U udp_recv
+         U udp_remove
+         U udp_sendto_if
+         U vPortFree
+
+dhcpserver.o:
+00000b2c T dhcps_coarse_tmr
+00000000 D dhcps_lease_time
+00000814 T dhcps_start
+000008ac T dhcps_stop
+         U eagle_lwip_getif
+         U ets_bzero
+         U ets_memcmp
+         U ets_memcpy
+         U ets_memset
+         U ip_addr_any
+00000000 T node_insert_to_list
+00000038 T node_remove_from_list
+         U os_printf_plus
+         U pbuf_alloc
+         U pbuf_free
+         U pvPortZalloc
+         U udp_bind
+         U udp_disconnect
+         U udp_new
+         U udp_recv
+         U udp_remove
+         U udp_sendto
+         U vPortFree
+         U wifi_get_ip_info
+         U wifi_get_opmode
+00000ca0 T wifi_softap_dhcps_client_leave
+00000dc4 T wifi_softap_dhcps_client_update
+         U wifi_softap_dhcps_status
+00000a5c T wifi_softap_get_dhcps_lease
+00000c6c T wifi_softap_get_dhcps_lease_time
+00000c38 T wifi_softap_reset_dhcps_lease_time
+0000095c T wifi_softap_set_dhcps_lease
+00000bf8 T wifi_softap_set_dhcps_lease_time
+00000ba8 T wifi_softap_set_dhcps_offer_option
+         U wifi_softap_set_station_info
+
+dns.o:
+00000634 T dns_gethostbyname
+00000094 T dns_getserver
+00000024 T dns_init
+00000070 T dns_setserver
+000000ac T dns_tmr
+         U ets_memcpy
+         U ets_memset
+         U ets_strlen
+         U ip_addr_any
+         U ipaddr_addr
+         U os_random
+         U pbuf_alloc
+         U pbuf_copy_partial
+         U pbuf_free
+         U pbuf_realloc
+         U pvPortZalloc
+         U udp_bind
+         U udp_connect
+         U udp_new
+         U udp_recv
+         U udp_sendto
+         U vPortFree
+
+err.o:
+
+espconn_buf.o:
+         U __umodsi3
+         U ets_memcpy
+         U ets_memset
+         U memchr
+         U os_printf_plus
+         U pvPortZalloc
+0000006c T ringbuf_buffer_size
+0000010c T ringbuf_bytes_free
+0000013c T ringbuf_bytes_used
+000000dc T ringbuf_capacity
+00000218 T ringbuf_findchr
+00000094 T ringbuf_free
+000001a4 T ringbuf_head
+00000178 T ringbuf_is_empty
+00000160 T ringbuf_is_full
+00000468 T ringbuf_memcpy_from
+000003a0 T ringbuf_memcpy_into
+000002c8 T ringbuf_memset
+00000018 T ringbuf_new
+00000070 T ringbuf_reset
+000001a0 T ringbuf_tail
+         U vPortFree
+
+espconn_mdns.o:
+000000c4 T espconn_mdns_close
+0000001c T espconn_mdns_disable
+00000004 T espconn_mdns_enable
+0000004c T espconn_mdns_get_hostname
+0000007c T espconn_mdns_get_servername
+000000dc T espconn_mdns_init
+00000094 T espconn_mdns_server_register
+000000ac T espconn_mdns_server_unregister
+00000034 T espconn_mdns_set_hostname
+00000064 T espconn_mdns_set_servername
+         U mdns_close
+         U mdns_disable
+         U mdns_enable
+         U mdns_get_hostname
+         U mdns_get_servername
+         U mdns_init
+         U mdns_server_register
+         U mdns_server_unregister
+         U mdns_set_hostname
+         U mdns_set_servername
+
+espconn.o:
+         U __udivsi3
+         U __umodsi3
+         U dns_gethostbyname
+         U dns_getserver
+         U dns_setserver
+000008ac T espconn_abort
+000007d8 T espconn_accept
+000009e8 T espconn_clear_opt
+00000214 T espconn_connect
+00000010 T espconn_copy_partial
+00000314 T espconn_create
+00000b34 T espconn_delete
+00000864 T espconn_disconnect
+00000c38 T espconn_dns_getserver
+00000bf4 T espconn_dns_setserver
+0000012c T espconn_find_connection
+00000708 T espconn_get_connection_info
+00000abc T espconn_get_keepalive
+00000900 T espconn_get_packet_info
+00000bc0 T espconn_gethostbyname
+000000a0 T espconn_list_creat
+000000c0 T espconn_list_delete
+000000e8 T espconn_pbuf_create
+00000104 T espconn_pbuf_delete
+00000b84 T espconn_port
+00000438 T espconn_recv
+         U espconn_recv_unhold
+000006ac T espconn_regist_connectcb
+000006d8 T espconn_regist_disconcb
+000006c8 T espconn_regist_reconcb
+000006bc T espconn_regist_recvcb
+00000688 T espconn_regist_sentcb
+00000820 T espconn_regist_time
+00000694 T espconn_regist_write_finish
+00000368 T espconn_send
+000004b0 T espconn_sendto
+00000368 T espconn_sent
+00000a48 T espconn_set_keepalive
+00000990 T espconn_set_opt
+         U espconn_tcp_client
+         U espconn_tcp_delete
+         U espconn_tcp_disconnect
+00000550 T espconn_tcp_get_max_con
+000005e0 T espconn_tcp_get_max_con_allow
+00000580 T espconn_tcp_get_max_retran
+000005b0 T espconn_tcp_get_max_syn
+00000544 T espconn_tcp_get_mss
+00000500 T espconn_tcp_get_wnd
+         U espconn_tcp_server
+00000644 T espconn_tcp_set_buf_count
+00000564 T espconn_tcp_set_max_con
+00000610 T espconn_tcp_set_max_con_allow
+00000594 T espconn_tcp_set_max_retran
+000005c4 T espconn_tcp_set_max_syn
+00000528 T espconn_tcp_set_wnd
+         U espconn_tcp_write
+         U espconn_udp_disconnect
+         U espconn_udp_sendto
+         U espconn_udp_sent
+         U espconn_udp_server
+         U ets_memcpy
+         U ets_memset
+         U manual_set_flag
+         U os_random
+000000d0 B pktinfo
+00000000 B plink_active
+00000010 B premot
+00000004 B pserver_list
+         U pvPortZalloc
+         U ringbuf_bytes_used
+         U ringbuf_memcpy_from
+         U wifi_get_ip_info
+         U wifi_get_opmode
+         U wifi_station_get_connect_status
+
+espconn_tcp.o:
+00000000 B espconn_TaskQueue
+         U espconn_copy_partial
+         U espconn_find_connection
+00000228 T espconn_find_current_pcb
+         U espconn_get_connection_info
+000013f8 T espconn_init
+00000110 T espconn_kill_oldest_pcb
+000001a4 T espconn_kill_pcb
+         U espconn_list_creat
+         U espconn_list_delete
+00000830 T espconn_lock_recv
+         U espconn_pbuf_delete
+00000780 T espconn_recv_hold
+000007d0 T espconn_recv_unhold
+00000c60 T espconn_tcp_client
+00001364 T espconn_tcp_delete
+0000069c T espconn_tcp_disconnect
+         U espconn_tcp_get_max_con_allow
+000002e0 T espconn_tcp_memp_free
+000005d8 T espconn_tcp_sent
+00001280 T espconn_tcp_server
+         U espconn_tcp_set_buf_count
+000009b8 T espconn_tcp_write
+0000087c T espconn_unlock_recv
+         U ets_bzero
+         U ets_memcpy
+         U ets_post
+         U ets_task
+         U ip_addr_any
+         U os_printf_plus
+         U pbuf_copy_partial
+         U pbuf_free
+         U pktinfo
+         U plink_active
+         U pserver_list
+         U pvPortZalloc
+         U ringbuf_free
+         U ringbuf_memcpy_into
+         U ringbuf_new
+         U tcp_abandon
+         U tcp_abort
+         U tcp_accept
+         U tcp_active_pcbs
+         U tcp_arg
+         U tcp_bind
+         U tcp_close
+         U tcp_connect
+         U tcp_err
+         U tcp_listen_with_backlog
+         U tcp_new
+         U tcp_output
+         U tcp_pcb_lists
+         U tcp_pcb_purge
+         U tcp_pcb_remove
+         U tcp_poll
+         U tcp_recv
+         U tcp_recved
+         U tcp_sent
+         U tcp_ticks
+         U tcp_tw_pcbs
+         U tcp_write
+         U vPortFree
+
+espconn_udp.o:
+         U default_interface
+         U eagle_lwip_getif
+00000624 T espconn_igmp_join
+00000604 T espconn_igmp_leave
+         U espconn_list_creat
+         U espconn_list_delete
+00000524 T espconn_udp_disconnect
+0000025c T espconn_udp_sendto
+0000008c T espconn_udp_sent
+0000058c T espconn_udp_server
+         U igmp_joingroup
+         U igmp_leavegroup
+         U ip4_addr_isbroadcast
+         U ip_addr_any
+         U netif_set_default
+         U pbuf_alloc
+         U pbuf_copy
+         U pbuf_copy_partial
+         U pbuf_free
+         U plink_active
+         U pvPortZalloc
+         U udp_bind
+         U udp_disconnect
+         U udp_new
+         U udp_recv
+         U udp_remove
+         U udp_send
+         U udp_sendto
+         U vPortFree
+         U wifi_get_ip_info
+         U wifi_get_opmode
+
+etharp.o:
+         U dhcp_arp_reply
+00000288 T etharp_cleanup_netif
+000002c8 T etharp_find_addr
+00000570 T etharp_output
+000006b0 T etharp_query
+0000090c T etharp_request
+00000038 T etharp_tmr
+00000000 R ethbroadcast
+0000093c T ethernet_input
+00000004 B ethzero
+         U ets_memcpy
+         U ip4_addr_isbroadcast
+         U ip_input
+         U memp_sizes
+         U pbuf_alloc
+         U pbuf_copy
+         U pbuf_free
+         U pbuf_header
+         U pbuf_ref
+         U pvPortMalloc
+         U vPortFree
+
+icmp.o:
+         U current_iphdr_dest
+         U current_iphdr_src
+         U ets_memcpy
+0000024c T icmp_dest_unreach
+0000005c T icmp_input
+         U inet_chksum
+         U inet_chksum_pbuf
+         U ip4_addr_isbroadcast
+         U ip_output
+         U ip_output_if
+         U pbuf_alloc
+         U pbuf_copy
+         U pbuf_free
+         U pbuf_header
+
+igmp.o:
+         U __umodsi3
+0000000c T igmp_init
+00000214 T igmp_input
+0000036c T igmp_joingroup
+0000041c T igmp_leavegroup
+00000110 T igmp_lookfor_group
+000000dc T igmp_report_groups
+00000024 T igmp_start
+00000074 T igmp_stop
+000004c4 T igmp_tmr
+         U inet_chksum
+         U ip_addr_any
+         U ip_output_if_opt
+         U memp_sizes
+         U netif_list
+         U pbuf_alloc
+         U pbuf_free
+         U pbuf_header
+         U pvPortMalloc
+         U r_rand
+         U vPortFree
+
+inet_chksum.o:
+00000214 T inet_chksum
+0000022c T inet_chksum_pbuf
+00000078 T inet_chksum_pseudo
+00000138 T inet_chksum_pseudo_partial
+
+inet.o:
+
+init.o:
+         U dns_init
+         U igmp_init
+00000018 T lwip_init
+         U netif_init
+         U sys_timeouts_init
+
+ip_addr.o:
+         U __udivsi3
+         U __umodsi3
+00000000 T ip4_addr_isbroadcast
+00000034 T ip4_addr_netmask_valid
+00000000 T ip_addr_any
+00000004 T ip_addr_broadcast
+00000074 T ipaddr_addr
+000000a8 T ipaddr_aton
+000002c4 T ipaddr_ntoa
+000002e0 T ipaddr_ntoa_r
+
+ip_frag.o:
+
+ip.o:
+0000000c B current_header
+00000000 B current_iphdr_dest
+00000004 B current_iphdr_src
+00000008 B current_netif
+         U eagle_lwip_getif
+         U ets_memcpy
+         U ets_memset
+         U icmp_dest_unreach
+         U icmp_input
+         U igmp_input
+         U igmp_lookfor_group
+         U inet_chksum
+         U ip4_addr_isbroadcast
+00000170 T ip_input
+00000604 T ip_output
+000003e0 T ip_output_if
+00000418 T ip_output_if_opt
+00000010 T ip_route
+000000a0 T ip_router
+         U netif_default
+         U netif_list
+         U os_printf_plus
+         U pbuf_free
+         U pbuf_header
+         U pbuf_realloc
+         U raw_input
+         U tcp_input
+         U udp_input
+
+mdns.o:
+0000000c B PUCK_PORT
+00000004 B PUCK_SERVICE
+         U eagle_lwip_getif
+         U ets_memcpy
+         U ets_memset
+         U ets_sprintf
+         U ets_strcat
+         U ets_strcpy
+         U ets_strlen
+         U ets_strncpy
+         U ets_timer_arm_new
+         U ets_timer_disarm
+         U ets_timer_setfn
+00000004 T getPcb
+         U igmp_joingroup
+         U igmp_leavegroup
+         U ip_addr_any
+         U ipaddr_addr
+00000ca4 T mdns_close
+00000d94 T mdns_disable
+00000d68 T mdns_enable
+00000dc0 T mdns_get_hostname
+00000eb4 T mdns_get_servername
+000010f0 T mdns_init
+00000fe4 T mdns_reg
+00000f8c T mdns_server_register
+00000ef8 T mdns_server_unregister
+00000e00 T mdns_set_hostname
+00000d44 T mdns_set_name
+00000e7c T mdns_set_servername
+0000001c B mdns_timer
+         U netif_set_default
+         U os_printf_plus
+         U pbuf_alloc
+         U pbuf_copy
+         U pbuf_copy_partial
+         U pbuf_free
+         U pbuf_realloc
+         U pvPortZalloc
+         U udp_bind
+         U udp_new
+         U udp_recv
+         U udp_remove
+         U udp_sendto
+         U vPortFree
+         U wifi_get_broadcast_if
+         U wifi_get_ip_info
+         U wifi_get_opmode
+
+mem.o:
+
+memp.o:
+00000000 T memp_sizes
+00000000 D memp_sizes_test
+
+netbuf.o:
+
+netdb.o:
+
+netifapi.o:
+
+netif.o:
+         U dhcp_network_changed
+         U etharp_cleanup_netif
+         U etharp_request
+         U igmp_report_groups
+         U igmp_start
+         U igmp_stop
+00000010 T netif_add
+00000004 B netif_default
+00000108 T netif_find
+00000000 T netif_init
+00000000 B netif_list
+000000a8 T netif_remove
+00000078 T netif_set_addr
+000001d8 T netif_set_default
+0000022c T netif_set_down
+000001b4 T netif_set_gw
+0000014c T netif_set_ipaddr
+000002b0 T netif_set_link_down
+00000260 T netif_set_link_up
+000001c4 T netif_set_netmask
+000001e8 T netif_set_up
+         U tcp_abort
+         U tcp_active_pcbs
+         U tcp_listen_pcbs
+
+netio.o:
+         U __udivsi3
+         U ip_addr_any
+00000460 T netio_init
+         U pbuf_free
+         U pvPortMalloc
+         U tcp_accept
+         U tcp_arg
+         U tcp_bind
+         U tcp_close
+         U tcp_listen_with_backlog
+         U tcp_new
+         U tcp_poll
+         U tcp_recv
+         U tcp_recved
+         U tcp_sent
+         U tcp_write
+         U vPortFree
+
+pbuf.o:
+         U ets_memcpy
+         U ets_strlen
+         U memp_sizes
+00000084 T pbuf_alloc
+00000364 T pbuf_cat
+00000390 T pbuf_chain
+00000340 T pbuf_clen
+00000578 T pbuf_coalesce
+000003ec T pbuf_copy
+00000494 T pbuf_copy_partial
+000003ac T pbuf_dechain
+000002b4 T pbuf_free
+0000000c T pbuf_free_ooseq_new
+000005ac T pbuf_get_at
+0000022c T pbuf_header
+000005d8 T pbuf_memcmp
+00000648 T pbuf_memfind
+000001e4 T pbuf_realloc
+00000358 T pbuf_ref
+000006ac T pbuf_strstr
+00000518 T pbuf_take
+         U pvPortMalloc
+         U system_pp_recycle_rx_pkt
+         U tcp_active_pcbs
+         U tcp_seg_free
+         U vPortFree
+
+ping.o:
+         U __udivsi3
+         U ets_bzero
+         U inet_chksum
+         U ip_addr_any
+         U ipaddr_ntoa_r
+         U os_printf_plus
+         U pbuf_alloc
+         U pbuf_free
+         U pbuf_header
+00000520 T ping_regist_recv
+0000052c T ping_regist_sent
+000004c4 T ping_start
+         U pvPortZalloc
+         U raw_bind
+         U raw_new
+         U raw_recv
+         U raw_remove
+         U raw_sendto
+         U sys_timeout
+         U sys_untimeout
+         U system_get_time
+         U system_relative_time
+         U vPortFree
+
+raw.o:
+         U current_iphdr_dest
+         U current_iphdr_src
+         U ets_memset
+         U ip_output_if
+         U ip_route
+         U memp_sizes
+         U pbuf_alloc
+         U pbuf_chain
+         U pbuf_free
+         U pbuf_header
+         U pvPortMalloc
+0000009c T raw_bind
+000000ac T raw_connect
+00000014 T raw_input
+00000200 T raw_new
+000000bc T raw_recv
+000001b0 T raw_remove
+00000190 T raw_send
+000000e4 T raw_sendto
+         U vPortFree
+
+sntp.o:
+         U __divsi3
+         U __modsi3
+00000028 B __tznorth
+00000024 B __tzyear
+         U __udivsi3
+         U dns_gethostbyname
+         U ets_memset
+         U ets_sprintf
+         U ets_strcpy
+         U ets_timer_arm_new
+         U ets_timer_disarm
+         U ets_timer_setfn
+         U ip_addr_any
+         U os_printf_plus
+         U pbuf_alloc
+         U pbuf_copy_partial
+         U pbuf_free
+00000000 B res_buf
+000000a0 B reult
+00000390 T sntp__tzcalc_limits
+00000060 B sntp__tzrule
+0000058c T sntp_asctime
+00000540 T sntp_asctime_r
+0000000c T sntp_get_current_timestamp
+00000044 T sntp_get_real_time
+000000c8 T sntp_get_timetype
+000005a4 T sntp_get_timezone
+00000b0c T sntp_getserver
+00000b50 T sntp_getservername
+00000a24 T sntp_init
+0000033c T sntp_localtime
+00000324 T sntp_localtime_r
+00000078 T sntp_mktm_r
+00000001 D sntp_receive_time_size
+00000618 T sntp_set_daylight
+00000b90 T sntp_set_receive_time_size
+00000b80 T sntp_set_timetype
+000005c4 T sntp_set_timezone
+00000b6c T sntp_set_update_delay
+00000ad4 T sntp_setserver
+00000b2c T sntp_setservername
+00000a84 T sntp_stop
+00000650 T sntp_time_inc
+         U sntp_update_rtc
+         U sys_timeout
+         U sys_untimeout
+00000000 D time_zone
+         U udp_new
+         U udp_recv
+         U udp_remove
+         U udp_sendto
+
+sockets.o:
+
+stats.o:
+
+sys_arch.o:
+
+sys.o:
+
+tcp_in.o:
+         U RxNodeNum
+         U __divsi3
+         U current_iphdr_dest
+         U current_iphdr_src
+         U inet_chksum_pseudo
+         U ip4_addr_isbroadcast
+         U pbuf_cat
+         U pbuf_clen
+         U pbuf_free
+         U pbuf_free_ooseq_new
+         U pbuf_header
+         U pbuf_realloc
+         U tcp_abandon
+         U tcp_abort
+         U tcp_active_pcbs
+         U tcp_alloc
+         U tcp_eff_send_mss
+         U tcp_enqueue_flags
+0000009c T tcp_input
+00000030 B tcp_input_pcb
+         U tcp_listen_pcbs
+         U tcp_output
+         U tcp_pcb_purge
+         U tcp_pcb_remove
+         U tcp_recv_null
+         U tcp_rexmit
+         U tcp_rexmit_fast
+         U tcp_rst
+         U tcp_seg_copy
+         U tcp_seg_free
+         U tcp_segs_free
+         U tcp_send_empty_ack
+         U tcp_ticks
+         U tcp_timer_needed
+         U tcp_tmp_pcb
+         U tcp_tw_pcbs
+         U tcp_update_rcv_ann_wnd
+         U vPortFree
+
+tcpip.o:
+
+tcp.o:
+         U __udivsi3
+         U __umodsi3
+         U ets_memcpy
+         U ets_memset
+         U ip_route
+         U memp_sizes
+         U os_random
+         U pbuf_free
+         U pbuf_ref
+         U pvPortMalloc
+         U system_get_data_of_array_8
+000000cc T tcp_abandon
+00000174 T tcp_abort
+00000afc T tcp_accept
+00000004 B tcp_active_pcbs
+000009e4 T tcp_alloc
+00000ae0 T tcp_arg
+00000030 T tcp_backoff
+00000198 T tcp_bind
+00000010 B tcp_bound_pcbs
+00000028 T tcp_close
+000003bc T tcp_connect
+00000bec T tcp_eff_send_mss
+         U tcp_enqueue_flags
+00000af4 T tcp_err
+000007c0 T tcp_fasttmr
+         U tcp_keepalive
+00000014 B tcp_listen_pcbs
+00000234 T tcp_listen_with_backlog
+00000acc T tcp_new
+00000bd4 T tcp_next_iss
+         U tcp_output
+00000010 T tcp_pcb_lists
+00000b0c T tcp_pcb_purge
+00000b68 T tcp_pcb_remove
+00000020 T tcp_persist_backoff
+00000b00 T tcp_poll
+00000ae4 T tcp_recv
+000008f4 T tcp_recv_null
+00000344 T tcp_recved
+         U tcp_rexmit_rto
+         U tcp_rst
+000008ac T tcp_seg_copy
+00000864 T tcp_seg_free
+0000083c T tcp_segs_free
+         U tcp_send_fin
+00000aec T tcp_sent
+00000890 T tcp_setprio
+00000054 T tcp_shutdown
+0000050c T tcp_slowtmr
+00000018 B tcp_ticks
+         U tcp_timer_needed
+00000008 B tcp_tmp_pcb
+00000004 T tcp_tmr
+0000000c B tcp_tw_pcbs
+000002f8 T tcp_update_rcv_ann_wnd
+         U tcp_zero_window_probe
+         U vPortFree
+
+tcp_out.o:
+         U ets_memcpy
+         U inet_chksum_pseudo
+         U ip_output
+         U ip_route
+         U memp_sizes
+         U pbuf_alloc
+         U pbuf_cat
+         U pbuf_clen
+         U pbuf_copy_partial
+         U pbuf_free
+         U pbuf_header
+         U pvPortMalloc
+000006a4 T tcp_enqueue_flags
+         U tcp_input_pcb
+00000e40 T tcp_keepalive
+00000840 T tcp_output
+00000d2c T tcp_rexmit
+00000dd8 T tcp_rexmit_fast
+00000cb4 T tcp_rexmit_rto
+00000b68 T tcp_rst
+         U tcp_seg_free
+         U tcp_segs_free
+00000798 T tcp_send_empty_ack
+00000100 T tcp_send_fin
+         U tcp_ticks
+00000348 T tcp_write
+00000edc T tcp_zero_window_probe
+
+timers.o:
+         U __udivsi3
+         U dhcp_coarse_tmr
+         U dhcp_fine_tmr
+         U dhcps_coarse_tmr
+         U dns_tmr
+         U etharp_tmr
+         U igmp_tmr
+         U memp_sizes
+         U pvPortMalloc
+00000284 T sys_check_timeouts
+00000348 T sys_restart_timeouts
+00000180 T sys_timeout
+0000010c T sys_timeouts_init
+00000208 T sys_untimeout
+         U tcp_active_pcbs
+0000005c T tcp_timer_needed
+         U tcp_tmr
+         U tcp_tw_pcbs
+         U timer2_ms_flag
+         U vPortFree
+
+udp.o:
+         U current_iphdr_dest
+         U current_iphdr_src
+         U ets_memset
+         U icmp_dest_unreach
+         U inet_chksum_pseudo
+         U ip4_addr_isbroadcast
+         U ip_output_if
+         U ip_route
+         U memp_sizes
+         U pbuf_alloc
+         U pbuf_chain
+         U pbuf_free
+         U pbuf_header
+         U pvPortMalloc
+000004a0 T udp_bind
+00000520 T udp_connect
+0000057c T udp_disconnect
+00000058 T udp_input
+000005f4 T udp_new
+00000000 B udp_pcbs
+00000594 T udp_recv
+000005a8 T udp_remove
+000002c0 T udp_send
+000002d8 T udp_sendto
+00000344 T udp_sendto_if
+         U vPortFree

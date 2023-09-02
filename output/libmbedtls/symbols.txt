@@ -1,0 +1,1326 @@
+
+aes.o:
+00000014 T mbedtls_aes_crypt_cbc
+00000008 T mbedtls_aes_crypt_ecb
+00000054 T mbedtls_aes_decrypt
+00000054 T mbedtls_aes_encrypt
+00000000 T mbedtls_aes_free
+00000004 T mbedtls_aes_init
+00000030 T mbedtls_aes_setkey_dec
+00000048 T mbedtls_aes_setkey_enc
+         U memcpy
+         U memset
+         U system_get_data_of_array_8
+
+aesni.o:
+
+arc4.o:
+
+asn1parse.o:
+00000004 T mbedtls_asn1_find_named_data
+0000000c T mbedtls_asn1_free_named_data
+0000000c T mbedtls_asn1_free_named_data_list
+0000000c T mbedtls_asn1_get_alg
+00000008 T mbedtls_asn1_get_alg_null
+00000004 T mbedtls_asn1_get_bitstring
+00000004 T mbedtls_asn1_get_bitstring_null
+00000004 T mbedtls_asn1_get_bool
+00000004 T mbedtls_asn1_get_int
+00000000 T mbedtls_asn1_get_len
+00000008 T mbedtls_asn1_get_mpi
+00000010 T mbedtls_asn1_get_sequence_of
+00000004 T mbedtls_asn1_get_tag
+         U mbedtls_mpi_read_binary
+         U memcmp
+         U memset
+         U pvPortCallocIram
+         U vPortFree
+
+asn1write.o:
+         U mbedtls_asn1_find_named_data
+0000002c T mbedtls_asn1_store_named_data
+00000010 T mbedtls_asn1_write_algorithm_identifier
+0000000c T mbedtls_asn1_write_bitstring
+00000008 T mbedtls_asn1_write_bool
+0000000c T mbedtls_asn1_write_ia5_string
+00000008 T mbedtls_asn1_write_int
+00000000 T mbedtls_asn1_write_len
+00000010 T mbedtls_asn1_write_mpi
+00000008 T mbedtls_asn1_write_null
+0000000c T mbedtls_asn1_write_octet_string
+0000000c T mbedtls_asn1_write_oid
+0000000c T mbedtls_asn1_write_printable_string
+00000004 T mbedtls_asn1_write_raw_buffer
+00000000 T mbedtls_asn1_write_tag
+         U mbedtls_mpi_size
+         U mbedtls_mpi_write_binary
+         U memcpy
+         U pvPortCallocIram
+         U vPortFree
+
+base64.o:
+         U __udivsi3
+         U __umodsi3
+00000018 T mbedtls_base64_decode
+0000002c T mbedtls_base64_encode
+         U system_get_data_of_array_8
+
+bignum.o:
+         U __muldi3
+         U __udivdi3
+         U __udivsi3
+00000010 T mbedtls_mpi_add_abs
+00000004 T mbedtls_mpi_add_int
+00000010 T mbedtls_mpi_add_mpi
+00000008 T mbedtls_mpi_bitlen
+00000004 T mbedtls_mpi_cmp_abs
+00000004 T mbedtls_mpi_cmp_int
+00000004 T mbedtls_mpi_cmp_mpi
+00000014 T mbedtls_mpi_copy
+00000004 T mbedtls_mpi_div_int
+000000a4 T mbedtls_mpi_div_mpi
+00000090 T mbedtls_mpi_exp_mod
+00000004 T mbedtls_mpi_fill_random
+00000008 T mbedtls_mpi_free
+00000050 T mbedtls_mpi_gcd
+00000048 T mbedtls_mpi_gen_prime
+00000000 T mbedtls_mpi_get_bit
+00000014 T mbedtls_mpi_grow
+00000000 T mbedtls_mpi_init
+000000a8 T mbedtls_mpi_inv_mod
+00000014 T mbedtls_mpi_is_prime
+00000000 T mbedtls_mpi_lsb
+00000008 T mbedtls_mpi_lset
+0000000c T mbedtls_mpi_mod_int
+00000018 T mbedtls_mpi_mod_mpi
+00000004 T mbedtls_mpi_mul_int
+00000020 T mbedtls_mpi_mul_mpi
+00000008 T mbedtls_mpi_read_binary
+0000002c T mbedtls_mpi_read_string
+00000004 T mbedtls_mpi_safe_cond_assign
+00000008 T mbedtls_mpi_safe_cond_swap
+00000004 T mbedtls_mpi_set_bit
+0000000c T mbedtls_mpi_shift_l
+00000008 T mbedtls_mpi_shift_r
+00000018 T mbedtls_mpi_shrink
+00000004 T mbedtls_mpi_size
+00000018 T mbedtls_mpi_sub_abs
+00000004 T mbedtls_mpi_sub_int
+00000010 T mbedtls_mpi_sub_mpi
+0000000c T mbedtls_mpi_swap
+00000008 T mbedtls_mpi_write_binary
+00000018 T mbedtls_mpi_write_string
+         U memcpy
+         U memset
+         U pvPortCallocIram
+         U strlen
+         U vPortFree
+
+blowfish.o:
+
+camellia.o:
+
+ccm.o:
+
+certs.o:
+
+cipher.o:
+         U __umodsi3
+00000010 T mbedtls_cipher_crypt
+         U mbedtls_cipher_definitions
+0000001c T mbedtls_cipher_finish
+00000000 T mbedtls_cipher_free
+00000008 T mbedtls_cipher_info_from_string
+00000004 T mbedtls_cipher_info_from_type
+00000004 T mbedtls_cipher_info_from_values
+00000004 T mbedtls_cipher_init
+0000000c T mbedtls_cipher_list
+00000004 T mbedtls_cipher_reset
+0000000c T mbedtls_cipher_set_iv
+0000000c T mbedtls_cipher_set_padding_mode
+00000004 T mbedtls_cipher_setkey
+00000010 T mbedtls_cipher_setup
+         U mbedtls_cipher_supported
+00000044 T mbedtls_cipher_update
+         U memcpy
+         U memset
+         U strcmp
+
+cipher_wrap.o:
+         U mbedtls_aes_crypt_cbc
+         U mbedtls_aes_crypt_ecb
+         U mbedtls_aes_free
+         U mbedtls_aes_init
+         U mbedtls_aes_setkey_dec
+         U mbedtls_aes_setkey_enc
+00000000 R mbedtls_cipher_definitions
+0000001c C mbedtls_cipher_supported
+         U pvPortCallocIram
+         U vPortFree
+
+ctr_drbg.o:
+         U mbedtls_aes_crypt_ecb
+         U mbedtls_aes_free
+         U mbedtls_aes_init
+         U mbedtls_aes_setkey_enc
+00000004 T mbedtls_ctr_drbg_free
+00000004 T mbedtls_ctr_drbg_init
+00000004 T mbedtls_ctr_drbg_random
+0000001c T mbedtls_ctr_drbg_random_with_add
+00000010 T mbedtls_ctr_drbg_reseed
+00000004 T mbedtls_ctr_drbg_seed
+00000014 T mbedtls_ctr_drbg_seed_entropy_len
+00000000 T mbedtls_ctr_drbg_set_entropy_len
+00000000 T mbedtls_ctr_drbg_set_prediction_resistance
+00000000 T mbedtls_ctr_drbg_set_reseed_interval
+00000008 T mbedtls_ctr_drbg_update
+         U memcpy
+         U memset
+
+debug.o:
+
+des.o:
+
+dhm.o:
+         U mbedtls_asn1_get_mpi
+         U mbedtls_asn1_get_tag
+00000074 T mbedtls_dhm_calc_secret
+00000028 T mbedtls_dhm_free
+00000004 T mbedtls_dhm_init
+0000003c T mbedtls_dhm_make_params
+00000028 T mbedtls_dhm_make_public
+00000044 T mbedtls_dhm_parse_dhm
+00000014 T mbedtls_dhm_read_params
+00000008 T mbedtls_dhm_read_public
+         U mbedtls_mpi_cmp_int
+         U mbedtls_mpi_cmp_mpi
+         U mbedtls_mpi_copy
+         U mbedtls_mpi_exp_mod
+         U mbedtls_mpi_fill_random
+         U mbedtls_mpi_free
+         U mbedtls_mpi_init
+         U mbedtls_mpi_inv_mod
+         U mbedtls_mpi_lset
+         U mbedtls_mpi_mod_mpi
+         U mbedtls_mpi_mul_mpi
+         U mbedtls_mpi_read_binary
+         U mbedtls_mpi_shift_r
+         U mbedtls_mpi_size
+         U mbedtls_mpi_sub_int
+         U mbedtls_mpi_write_binary
+         U mbedtls_pem_free
+         U mbedtls_pem_init
+         U mbedtls_pem_read_buffer
+         U memset
+
+ecdh.o:
+
+ecdsa.o:
+
+ecjpake.o:
+
+ecp.o:
+
+ecp_curves.o:
+
+entropy.o:
+00000000 T mbedtls_entropy_add_source
+00000000 T mbedtls_entropy_free
+00000020 T mbedtls_entropy_func
+00000004 T mbedtls_entropy_gather
+0000000c T mbedtls_entropy_init
+00000004 T mbedtls_entropy_update_manual
+         U mbedtls_hardware_poll
+         U mbedtls_sha512
+         U mbedtls_sha512_finish
+         U mbedtls_sha512_starts
+         U mbedtls_sha512_update
+         U memcpy
+         U memset
+
+entropy_poll.o:
+
+error.o:
+00000000 T mbedtls_strerror
+
+esp_hardware.o:
+00000004 T mbedtls_hardware_poll
+         U os_get_random
+
+espconn_mbedtls.o:
+         U espconn_copy_partial
+         U espconn_get_connection_info
+         U espconn_kill_oldest_pcb
+         U espconn_kill_pcb
+         U espconn_list_creat
+         U espconn_list_delete
+00000030 T espconn_ssl_client
+0000002c T espconn_ssl_delete
+00000008 T espconn_ssl_disconnect
+00000010 T espconn_ssl_sent
+0000002c T espconn_ssl_server
+         U ets_bzero
+         U ets_memcmp
+         U ets_memcpy
+         U ets_memset
+         U ets_post
+         U ets_strlen
+         U ets_strstr
+         U ets_task
+         U ipaddr_ntoa
+         U lwip_getpeername
+         U mbedtls_ctr_drbg_free
+         U mbedtls_ctr_drbg_init
+         U mbedtls_ctr_drbg_random
+         U mbedtls_ctr_drbg_seed
+         U mbedtls_entropy_free
+         U mbedtls_entropy_func
+         U mbedtls_entropy_init
+0000000c T mbedtls_handshake_heap
+00000020 T mbedtls_load_default_obj
+         U mbedtls_net_accept
+         U mbedtls_net_bind
+         U mbedtls_net_connect
+         U mbedtls_net_free
+         U mbedtls_net_init
+         U mbedtls_net_recv
+         U mbedtls_net_send
+00000134 W mbedtls_parse_internal
+00000008 W mbedtls_parse_thread
+         U mbedtls_pk_free
+         U mbedtls_pk_init
+         U mbedtls_pk_parse_key
+         U mbedtls_ssl_close_notify
+         U mbedtls_ssl_conf_authmode
+         U mbedtls_ssl_conf_ca_chain
+         U mbedtls_ssl_conf_dbg
+         U mbedtls_ssl_conf_own_cert
+         U mbedtls_ssl_conf_rng
+         U mbedtls_ssl_config_defaults
+         U mbedtls_ssl_config_free
+         U mbedtls_ssl_config_init
+         U mbedtls_ssl_free
+         U mbedtls_ssl_get_verify_result
+         U mbedtls_ssl_handshake
+         U mbedtls_ssl_handshake_free
+         U mbedtls_ssl_init
+         U mbedtls_ssl_read
+         U mbedtls_ssl_session_free
+         U mbedtls_ssl_set_bio
+         U mbedtls_ssl_setup
+         U mbedtls_ssl_transform_free
+         U mbedtls_ssl_write
+         U mbedtls_x509_crt_free
+         U mbedtls_x509_crt_init
+         U mbedtls_x509_crt_parse
+         U mbedtls_x509_crt_verify
+         U mbedtls_x509_crt_verify_info
+00000048 T mbedtls_x509_test
+         U os_printf_plus
+         U plink_active
+         U pvPortZallocIram
+         U spi_flash_read
+         U ssl_option
+         U sys_itoa
+         U system_get_cpu_freq
+         U system_get_free_heap_size
+         U system_overclock
+         U system_restoreclock
+         U system_soft_wdt_restart
+         U system_soft_wdt_stop
+         U system_update_cpu_freq
+         U vPortFree
+
+espconn_secure.o:
+         U espconn_find_connection
+00000180 T espconn_secure_accept
+0000022c T espconn_secure_ca_disable
+000001ec T espconn_secure_ca_enable
+0000029c T espconn_secure_cert_req_disable
+0000025c T espconn_secure_cert_req_enable
+00000024 T espconn_secure_connect
+00000330 T espconn_secure_delete
+000000dc T espconn_secure_disconnect
+000001d4 T espconn_secure_get_size
+00000008 T espconn_secure_obj_load
+00000120 T espconn_secure_send
+00000120 T espconn_secure_sent
+000002cc T espconn_secure_set_default_certificate
+00000300 T espconn_secure_set_default_private_key
+000001ac T espconn_secure_set_size
+         U espconn_ssl_client
+         U espconn_ssl_delete
+         U espconn_ssl_disconnect
+         U espconn_ssl_sent
+         U espconn_ssl_server
+00000000 D max_content_len
+         U mbedtls_load_default_obj
+00000000 D ssl_option
+         U system_get_free_heap_size
+         U wifi_get_ip_info
+         U wifi_get_opmode
+         U wifi_station_get_connect_status
+
+gcm.o:
+
+havege.o:
+
+hmac_drbg.o:
+
+lwIPFile.o:
+         U __divsi3
+         U __modsi3
+00000010 W _close_r
+0000001c W _fstat_r
+0000000c W _lseek_r
+00000000 W _open_r
+00000004 W _read_r
+00000014 W _rename_r
+00000020 W _sbrk_r
+00000018 W _unlink_r
+00000008 W _write_r
+00000010 T sys_itoa
+00000000 T sys_reverse
+
+lwIPSocket.o:
+         U __udivsi3
+         U ets_memcpy
+         U ets_memset
+00000010 T lwip_accept
+00000008 T lwip_bind
+00000020 T lwip_close
+00000008 T lwip_connect
+00000004 T lwip_fcntl
+00000004 T lwip_getpeername
+00000004 T lwip_getsockname
+00000014 T lwip_getsockopt
+00000000 T lwip_getul
+00000008 T lwip_listen
+00000004 T lwip_read
+00000004 T lwip_recv
+0000000c T lwip_recvfrom
+0000000c T lwip_send
+00000008 T lwip_setsockopt
+00000018 T lwip_socket
+00000008 T lwip_write
+         w mbedtls_parse_internal
+         w mbedtls_parse_thread
+00000000 T netconn_accept
+00000004 T netconn_bind
+0000000c T netconn_connect
+00000018 T netconn_delete
+00000010 T netconn_listen
+         U pbuf_free
+         U pvPortZalloc
+         U ringbuf_bytes_used
+         U ringbuf_free
+         U ringbuf_memcpy_from
+         U ringbuf_memcpy_into
+         U ringbuf_new
+         U system_overclock
+         U tcp_accept
+         U tcp_active_pcbs
+         U tcp_arg
+         U tcp_bind
+         U tcp_close
+         U tcp_connect
+         U tcp_err
+         U tcp_listen_with_backlog
+         U tcp_new
+         U tcp_output
+         U tcp_poll
+         U tcp_recv
+         U tcp_recved
+         U tcp_sent
+         U tcp_write
+         U vPortFree
+
+md.o:
+00000004 T mbedtls_md
+         U mbedtls_md5_info
+00000004 T mbedtls_md_clone
+00000004 T mbedtls_md_finish
+00000008 T mbedtls_md_free
+00000000 T mbedtls_md_get_name
+00000000 T mbedtls_md_get_size
+00000000 T mbedtls_md_get_type
+0000001c T mbedtls_md_hmac
+00000004 T mbedtls_md_hmac_finish
+00000004 T mbedtls_md_hmac_reset
+0000000c T mbedtls_md_hmac_starts
+00000004 T mbedtls_md_hmac_update
+00000050 T mbedtls_md_info_from_string
+00000004 T mbedtls_md_info_from_type
+00000004 T mbedtls_md_init
+00000004 T mbedtls_md_init_ctx
+00000004 T mbedtls_md_list
+00000004 T mbedtls_md_process
+00000010 T mbedtls_md_setup
+00000004 T mbedtls_md_starts
+00000004 T mbedtls_md_update
+         U mbedtls_sha1_info
+         U mbedtls_sha224_info
+         U mbedtls_sha256_info
+         U mbedtls_sha384_info
+         U mbedtls_sha512_info
+         U memset
+         U pvPortCallocIram
+         U strcmp
+         U vPortFree
+
+md2.o:
+
+md4.o:
+
+md5.o:
+00000014 T mbedtls_md5
+00000004 T mbedtls_md5_clone
+00000010 T mbedtls_md5_finish
+00000000 T mbedtls_md5_free
+00000004 T mbedtls_md5_init
+00000100 T mbedtls_md5_process
+00000010 T mbedtls_md5_starts
+00000010 T mbedtls_md5_update
+         U memcpy
+         U memset
+
+md_wrap.o:
+         U mbedtls_md5
+         U mbedtls_md5_clone
+         U mbedtls_md5_finish
+         U mbedtls_md5_free
+000000f0 R mbedtls_md5_info
+         U mbedtls_md5_init
+         U mbedtls_md5_process
+         U mbedtls_md5_starts
+         U mbedtls_md5_update
+         U mbedtls_sha1
+         U mbedtls_sha1_clone
+         U mbedtls_sha1_finish
+         U mbedtls_sha1_free
+000000c0 R mbedtls_sha1_info
+         U mbedtls_sha1_init
+         U mbedtls_sha1_process
+         U mbedtls_sha1_starts
+         U mbedtls_sha1_update
+00000090 R mbedtls_sha224_info
+         U mbedtls_sha256
+         U mbedtls_sha256_clone
+         U mbedtls_sha256_finish
+         U mbedtls_sha256_free
+00000060 R mbedtls_sha256_info
+         U mbedtls_sha256_init
+         U mbedtls_sha256_process
+         U mbedtls_sha256_starts
+         U mbedtls_sha256_update
+00000030 R mbedtls_sha384_info
+         U mbedtls_sha512
+         U mbedtls_sha512_clone
+         U mbedtls_sha512_finish
+         U mbedtls_sha512_free
+00000000 R mbedtls_sha512_info
+         U mbedtls_sha512_init
+         U mbedtls_sha512_process
+         U mbedtls_sha512_starts
+         U mbedtls_sha512_update
+         U pvPortCallocIram
+         U vPortFree
+
+memory_buffer_alloc.o:
+
+net.o:
+         U ipaddr_addr
+         U lwip_accept
+         U lwip_bind
+         U lwip_close
+         U lwip_connect
+         U lwip_fcntl
+         U lwip_getul
+         U lwip_listen
+         U lwip_read
+         U lwip_socket
+         U lwip_write
+00000018 T mbedtls_net_accept
+00000024 T mbedtls_net_bind
+00000030 T mbedtls_net_connect
+00000004 T mbedtls_net_free
+00000000 T mbedtls_net_init
+00000008 T mbedtls_net_recv
+00000004 T mbedtls_net_recv_timeout
+00000008 T mbedtls_net_send
+00000008 T mbedtls_net_set_block
+00000008 T mbedtls_net_set_nonblock
+00000000 T mbedtls_net_usleep
+         U os_printf_plus
+
+oid.o:
+         U __udivsi3
+         U __umodsi3
+         U ets_snprintf
+00000008 T mbedtls_oid_get_attr_short_name
+00000008 T mbedtls_oid_get_cipher_alg
+00000008 T mbedtls_oid_get_extended_key_usage
+00000008 T mbedtls_oid_get_md_alg
+0000001c T mbedtls_oid_get_numeric_string
+00000004 T mbedtls_oid_get_oid_by_md
+00000004 T mbedtls_oid_get_oid_by_pk_alg
+00000004 T mbedtls_oid_get_oid_by_sig_alg
+00000008 T mbedtls_oid_get_pk_alg
+00000004 T mbedtls_oid_get_sig_alg
+00000004 T mbedtls_oid_get_sig_alg_desc
+00000008 T mbedtls_oid_get_x509_ext_type
+         U memcmp
+
+padlock.o:
+
+pem.o:
+         U mbedtls_aes_crypt_cbc
+         U mbedtls_aes_free
+         U mbedtls_aes_init
+         U mbedtls_aes_setkey_dec
+         U mbedtls_base64_decode
+         U mbedtls_base64_encode
+         U mbedtls_md5_finish
+         U mbedtls_md5_free
+         U mbedtls_md5_init
+         U mbedtls_md5_starts
+         U mbedtls_md5_update
+0000000c T mbedtls_pem_free
+00000004 T mbedtls_pem_init
+00000080 T mbedtls_pem_read_buffer
+00000040 T mbedtls_pem_write_buffer
+         U memcmp
+         U memcpy
+         U memset
+         U pvPortCallocIram
+         U strlen
+         U strstr
+         U vPortFree
+
+pk.o:
+         U mbedtls_md_get_size
+         U mbedtls_md_info_from_type
+00000000 T mbedtls_pk_can_do
+00000008 T mbedtls_pk_check_pair
+00000008 T mbedtls_pk_debug
+00000008 T mbedtls_pk_decrypt
+00000008 T mbedtls_pk_encrypt
+00000000 T mbedtls_pk_free
+00000000 T mbedtls_pk_get_bitlen
+00000004 T mbedtls_pk_get_name
+00000000 T mbedtls_pk_get_type
+00000004 T mbedtls_pk_info_from_type
+00000000 T mbedtls_pk_init
+00000008 T mbedtls_pk_setup
+0000000c T mbedtls_pk_setup_rsa_alt
+00000010 T mbedtls_pk_sign
+00000010 T mbedtls_pk_verify
+00000024 T mbedtls_pk_verify_ext
+         U mbedtls_rsa_alt_info
+         U mbedtls_rsa_info
+         U mbedtls_rsa_rsassa_pss_verify_ext
+
+pk_wrap.o:
+00000000 R mbedtls_rsa_alt_info
+         U mbedtls_rsa_check_pub_priv
+         U mbedtls_rsa_free
+00000030 R mbedtls_rsa_info
+         U mbedtls_rsa_init
+         U mbedtls_rsa_pkcs1_decrypt
+         U mbedtls_rsa_pkcs1_encrypt
+         U mbedtls_rsa_pkcs1_sign
+         U mbedtls_rsa_pkcs1_verify
+         U memset
+         U pvPortCallocIram
+         U vPortFree
+
+pkcs11.o:
+
+pkcs12.o:
+
+pkcs5.o:
+
+pkparse.o:
+         U mbedtls_asn1_get_alg
+         U mbedtls_asn1_get_bitstring_null
+         U mbedtls_asn1_get_int
+         U mbedtls_asn1_get_mpi
+         U mbedtls_asn1_get_tag
+         U mbedtls_mpi_size
+         U mbedtls_oid_get_pk_alg
+         U mbedtls_pem_free
+         U mbedtls_pem_init
+         U mbedtls_pem_read_buffer
+         U mbedtls_pk_free
+         U mbedtls_pk_info_from_type
+00000068 T mbedtls_pk_parse_key
+0000001c T mbedtls_pk_parse_public_key
+00000038 T mbedtls_pk_parse_subpubkey
+         U mbedtls_pk_setup
+         U mbedtls_rsa_check_privkey
+         U mbedtls_rsa_check_pubkey
+         U mbedtls_rsa_free
+         U memset
+
+pkwrite.o:
+         U mbedtls_asn1_write_algorithm_identifier
+         U mbedtls_asn1_write_int
+         U mbedtls_asn1_write_len
+         U mbedtls_asn1_write_mpi
+         U mbedtls_asn1_write_tag
+         U mbedtls_oid_get_oid_by_pk_alg
+         U mbedtls_pem_write_buffer
+         U mbedtls_pk_get_type
+00000034 T mbedtls_pk_write_key_der
+00000028 T mbedtls_pk_write_key_pem
+00000018 T mbedtls_pk_write_pubkey
+00000020 T mbedtls_pk_write_pubkey_der
+0000001c T mbedtls_pk_write_pubkey_pem
+
+platform.o:
+
+ripemd160.o:
+
+rsa.o:
+         U mbedtls_asn1_get_tag
+         U mbedtls_md
+         U mbedtls_md_finish
+         U mbedtls_md_free
+         U mbedtls_md_get_size
+         U mbedtls_md_info_from_type
+         U mbedtls_md_init
+         U mbedtls_md_setup
+         U mbedtls_md_starts
+         U mbedtls_md_update
+         U mbedtls_mpi_add_mpi
+         U mbedtls_mpi_bitlen
+         U mbedtls_mpi_cmp_int
+         U mbedtls_mpi_cmp_mpi
+         U mbedtls_mpi_copy
+         U mbedtls_mpi_div_mpi
+         U mbedtls_mpi_exp_mod
+         U mbedtls_mpi_fill_random
+         U mbedtls_mpi_free
+         U mbedtls_mpi_gcd
+         U mbedtls_mpi_gen_prime
+         U mbedtls_mpi_init
+         U mbedtls_mpi_inv_mod
+         U mbedtls_mpi_lset
+         U mbedtls_mpi_mod_mpi
+         U mbedtls_mpi_mul_mpi
+         U mbedtls_mpi_read_binary
+         U mbedtls_mpi_sub_int
+         U mbedtls_mpi_sub_mpi
+         U mbedtls_mpi_swap
+         U mbedtls_mpi_write_binary
+         U mbedtls_oid_get_md_alg
+         U mbedtls_oid_get_oid_by_md
+000000bc T mbedtls_rsa_check_privkey
+00000014 T mbedtls_rsa_check_pub_priv
+00000018 T mbedtls_rsa_check_pubkey
+00000038 T mbedtls_rsa_copy
+00000034 T mbedtls_rsa_free
+00000074 T mbedtls_rsa_gen_key
+00000004 T mbedtls_rsa_init
+0000000c T mbedtls_rsa_pkcs1_decrypt
+0000000c T mbedtls_rsa_pkcs1_encrypt
+0000000c T mbedtls_rsa_pkcs1_sign
+0000000c T mbedtls_rsa_pkcs1_verify
+00000088 T mbedtls_rsa_private
+0000001c T mbedtls_rsa_public
+00000038 T mbedtls_rsa_rsaes_oaep_decrypt
+00000038 T mbedtls_rsa_rsaes_oaep_encrypt
+00000018 T mbedtls_rsa_rsaes_pkcs1_v15_decrypt
+00000014 T mbedtls_rsa_rsaes_pkcs1_v15_encrypt
+00000048 T mbedtls_rsa_rsassa_pkcs1_v15_sign
+0000003c T mbedtls_rsa_rsassa_pkcs1_v15_verify
+00000054 T mbedtls_rsa_rsassa_pss_sign
+00000004 T mbedtls_rsa_rsassa_pss_verify
+00000054 T mbedtls_rsa_rsassa_pss_verify_ext
+00000000 T mbedtls_rsa_set_padding
+         U memcmp
+         U memcpy
+         U memset
+         U pvPortCallocIram
+         U vPortFree
+
+sha1.o:
+00000014 T mbedtls_sha1
+00000004 T mbedtls_sha1_clone
+00000010 T mbedtls_sha1_finish
+00000000 T mbedtls_sha1_free
+00000004 T mbedtls_sha1_init
+00000010 T mbedtls_sha1_process
+00000014 T mbedtls_sha1_starts
+00000010 T mbedtls_sha1_update
+         U memcpy
+         U memset
+
+sha256.o:
+00000014 T mbedtls_sha256
+00000004 T mbedtls_sha256_clone
+00000010 T mbedtls_sha256_finish
+00000000 T mbedtls_sha256_free
+00000004 T mbedtls_sha256_init
+00000004 T mbedtls_sha256_process
+00000040 T mbedtls_sha256_starts
+00000010 T mbedtls_sha256_update
+         U memcpy
+         U memset
+
+sha512.o:
+00000014 T mbedtls_sha512
+00000004 T mbedtls_sha512_clone
+00000010 T mbedtls_sha512_finish
+00000000 T mbedtls_sha512_free
+00000004 T mbedtls_sha512_init
+00000004 T mbedtls_sha512_process
+00000088 T mbedtls_sha512_starts
+00000010 T mbedtls_sha512_update
+         U memcpy
+         U memset
+
+ssl_cache.o:
+
+ssl_ciphersuites.o:
+00000004 T mbedtls_ssl_ciphersuite_from_id
+00000008 T mbedtls_ssl_ciphersuite_from_string
+00000000 T mbedtls_ssl_ciphersuite_uses_psk
+00000004 T mbedtls_ssl_get_ciphersuite_id
+00000008 T mbedtls_ssl_get_ciphersuite_name
+00000000 T mbedtls_ssl_get_ciphersuite_sig_pk_alg
+00000014 T mbedtls_ssl_list_ciphersuites
+         U strcmp
+
+ssl_cli.o:
+         U max_content_len
+         U mbedtls_dhm_calc_secret
+         U mbedtls_dhm_make_public
+         U mbedtls_dhm_read_params
+         U mbedtls_md5_finish
+         U mbedtls_md5_free
+         U mbedtls_md5_init
+         U mbedtls_md5_starts
+         U mbedtls_md5_update
+         U mbedtls_md_finish
+         U mbedtls_md_free
+         U mbedtls_md_info_from_type
+         U mbedtls_md_init
+         U mbedtls_md_setup
+         U mbedtls_md_starts
+         U mbedtls_md_update
+         U mbedtls_mpi_size
+         U mbedtls_pk_can_do
+         U mbedtls_pk_encrypt
+         U mbedtls_pk_sign
+         U mbedtls_pk_verify
+         U mbedtls_sha1_finish
+         U mbedtls_sha1_free
+         U mbedtls_sha1_init
+         U mbedtls_sha1_starts
+         U mbedtls_sha1_update
+         U mbedtls_ssl_check_sig_hash
+         U mbedtls_ssl_ciphersuite_from_id
+         U mbedtls_ssl_derive_keys
+         U mbedtls_ssl_flush_output
+         U mbedtls_ssl_get_ciphersuite_sig_pk_alg
+000000f4 T mbedtls_ssl_handshake_client_step
+         U mbedtls_ssl_handshake_wrapup
+         U mbedtls_ssl_hash_from_md_alg
+         U mbedtls_ssl_md_alg_from_hash
+         U mbedtls_ssl_optimize_checksum
+         U mbedtls_ssl_parse_certificate
+         U mbedtls_ssl_parse_change_cipher_spec
+         U mbedtls_ssl_parse_finished
+         U mbedtls_ssl_pk_alg_from_sig
+         U mbedtls_ssl_psk_derive_premaster
+         U mbedtls_ssl_read_record
+         U mbedtls_ssl_read_version
+         U mbedtls_ssl_send_alert_message
+         U mbedtls_ssl_send_fatal_handshake_failure
+         U mbedtls_ssl_sig_from_pk
+         U mbedtls_ssl_write_certificate
+         U mbedtls_ssl_write_change_cipher_spec
+         U mbedtls_ssl_write_finished
+         U mbedtls_ssl_write_record
+         U mbedtls_ssl_write_version
+         U memcmp
+         U memcpy
+         U strlen
+
+ssl_cookie.o:
+
+ssl_srv.o:
+         U max_content_len
+         U mbedtls_dhm_calc_secret
+         U mbedtls_dhm_make_params
+         U mbedtls_dhm_read_public
+         U mbedtls_md5_finish
+         U mbedtls_md5_free
+         U mbedtls_md5_init
+         U mbedtls_md5_starts
+         U mbedtls_md5_update
+         U mbedtls_md_finish
+         U mbedtls_md_free
+         U mbedtls_md_info_from_type
+         U mbedtls_md_init
+         U mbedtls_md_setup
+         U mbedtls_md_starts
+         U mbedtls_md_update
+         U mbedtls_mpi_copy
+         U mbedtls_mpi_size
+         U mbedtls_pk_can_do
+         U mbedtls_pk_decrypt
+         U mbedtls_pk_get_bitlen
+         U mbedtls_pk_sign
+         U mbedtls_pk_verify
+         U mbedtls_sha1_finish
+         U mbedtls_sha1_free
+         U mbedtls_sha1_init
+         U mbedtls_sha1_starts
+         U mbedtls_sha1_update
+         U mbedtls_ssl_check_cert_usage
+         U mbedtls_ssl_ciphersuite_from_id
+         U mbedtls_ssl_ciphersuite_uses_psk
+         U mbedtls_ssl_derive_keys
+         U mbedtls_ssl_fetch_input
+         U mbedtls_ssl_flush_output
+         U mbedtls_ssl_get_ciphersuite_sig_pk_alg
+00000108 T mbedtls_ssl_handshake_server_step
+         U mbedtls_ssl_handshake_wrapup
+         U mbedtls_ssl_md_alg_from_hash
+         U mbedtls_ssl_optimize_checksum
+         U mbedtls_ssl_parse_certificate
+         U mbedtls_ssl_parse_change_cipher_spec
+         U mbedtls_ssl_parse_finished
+         U mbedtls_ssl_pk_alg_from_sig
+         U mbedtls_ssl_psk_derive_premaster
+         U mbedtls_ssl_read_record
+         U mbedtls_ssl_read_version
+         U mbedtls_ssl_send_alert_message
+         U mbedtls_ssl_send_fatal_handshake_failure
+         U mbedtls_ssl_sig_from_pk
+         U mbedtls_ssl_write_certificate
+         U mbedtls_ssl_write_change_cipher_spec
+         U mbedtls_ssl_write_finished
+         U mbedtls_ssl_write_record
+         U mbedtls_ssl_write_version
+         U memcpy
+         U memset
+
+ssl_ticket.o:
+
+ssl_tls.o:
+         U __umodsi3
+         U max_content_len
+         U mbedtls_cipher_crypt
+         U mbedtls_cipher_free
+         U mbedtls_cipher_info_from_type
+         U mbedtls_cipher_init
+         U mbedtls_cipher_set_padding_mode
+         U mbedtls_cipher_setkey
+         U mbedtls_cipher_setup
+         U mbedtls_dhm_free
+         U mbedtls_dhm_init
+         U mbedtls_md5_clone
+         U mbedtls_md5_finish
+         U mbedtls_md5_free
+         U mbedtls_md5_init
+         U mbedtls_md5_starts
+         U mbedtls_md5_update
+         U mbedtls_md_finish
+         U mbedtls_md_free
+         U mbedtls_md_get_size
+         U mbedtls_md_get_type
+         U mbedtls_md_hmac_finish
+         U mbedtls_md_hmac_reset
+         U mbedtls_md_hmac_starts
+         U mbedtls_md_hmac_update
+         U mbedtls_md_info_from_type
+         U mbedtls_md_init
+         U mbedtls_md_process
+         U mbedtls_md_setup
+         U mbedtls_md_starts
+         U mbedtls_md_update
+         U mbedtls_mpi_copy
+         U mbedtls_mpi_free
+         U mbedtls_mpi_read_string
+         U mbedtls_pk_can_do
+         U mbedtls_sha1_clone
+         U mbedtls_sha1_finish
+         U mbedtls_sha1_free
+         U mbedtls_sha1_init
+         U mbedtls_sha1_starts
+         U mbedtls_sha1_update
+         U mbedtls_sha256_clone
+         U mbedtls_sha256_finish
+         U mbedtls_sha256_free
+         U mbedtls_sha256_init
+         U mbedtls_sha256_starts
+         U mbedtls_sha256_update
+         U mbedtls_sha512_clone
+         U mbedtls_sha512_finish
+         U mbedtls_sha512_free
+         U mbedtls_sha512_init
+         U mbedtls_sha512_starts
+         U mbedtls_sha512_update
+00000000 T mbedtls_ssl_check_cert_usage
+00000000 T mbedtls_ssl_check_sig_hash
+0000000c T mbedtls_ssl_close_notify
+00000000 T mbedtls_ssl_conf_authmode
+00000000 T mbedtls_ssl_conf_ca_chain
+00000000 T mbedtls_ssl_conf_cert_profile
+00000000 T mbedtls_ssl_conf_ciphersuites
+00000000 T mbedtls_ssl_conf_ciphersuites_for_version
+00000000 T mbedtls_ssl_conf_dbg
+00000010 T mbedtls_ssl_conf_dh_param
+00000010 T mbedtls_ssl_conf_dh_param_ctx
+00000000 T mbedtls_ssl_conf_dhm_min_bitlen
+00000000 T mbedtls_ssl_conf_endpoint
+00000000 T mbedtls_ssl_conf_legacy_renegotiation
+00000000 T mbedtls_ssl_conf_max_version
+00000000 T mbedtls_ssl_conf_min_version
+00000004 T mbedtls_ssl_conf_own_cert
+00000048 T mbedtls_ssl_conf_psk
+00000000 T mbedtls_ssl_conf_psk_cb
+00000000 T mbedtls_ssl_conf_read_timeout
+00000000 T mbedtls_ssl_conf_rng
+00000000 T mbedtls_ssl_conf_session_cache
+00000000 T mbedtls_ssl_conf_sig_hashes
+00000000 T mbedtls_ssl_conf_sni
+00000000 T mbedtls_ssl_conf_transport
+00000000 T mbedtls_ssl_conf_verify
+00000024 T mbedtls_ssl_config_defaults
+00000030 T mbedtls_ssl_config_free
+00000004 T mbedtls_ssl_config_init
+000000ac T mbedtls_ssl_derive_keys
+00000010 T mbedtls_ssl_fetch_input
+00000008 T mbedtls_ssl_flush_output
+00000070 T mbedtls_ssl_free
+00000000 T mbedtls_ssl_get_bytes_avail
+00000004 T mbedtls_ssl_get_ciphersuite
+         U mbedtls_ssl_get_ciphersuite_name
+00000000 T mbedtls_ssl_get_peer_cert
+00000004 T mbedtls_ssl_get_record_expansion
+00000008 T mbedtls_ssl_get_session
+00000000 T mbedtls_ssl_get_verify_result
+00000008 T mbedtls_ssl_get_version
+00000008 T mbedtls_ssl_handshake
+         U mbedtls_ssl_handshake_client_step
+00000030 T mbedtls_ssl_handshake_free
+         U mbedtls_ssl_handshake_server_step
+00000010 T mbedtls_ssl_handshake_step
+00000028 T mbedtls_ssl_handshake_wrapup
+00000004 T mbedtls_ssl_hash_from_md_alg
+00000004 T mbedtls_ssl_init
+         U mbedtls_ssl_list_ciphersuites
+00000004 T mbedtls_ssl_md_alg_from_hash
+0000000c T mbedtls_ssl_optimize_checksum
+00000048 T mbedtls_ssl_parse_certificate
+00000010 T mbedtls_ssl_parse_change_cipher_spec
+0000000c T mbedtls_ssl_parse_finished
+00000000 T mbedtls_ssl_pk_alg_from_sig
+0000000c T mbedtls_ssl_psk_derive_premaster
+0000002c T mbedtls_ssl_read
+00000068 T mbedtls_ssl_read_record
+00000000 T mbedtls_ssl_read_version
+00000010 T mbedtls_ssl_reset_checksum
+00000008 T mbedtls_ssl_send_alert_message
+00000004 T mbedtls_ssl_send_fatal_handshake_failure
+00000014 T mbedtls_ssl_session_free
+00000004 T mbedtls_ssl_session_init
+00000030 T mbedtls_ssl_session_reset
+00000000 T mbedtls_ssl_set_bio
+0000001c T mbedtls_ssl_set_hostname
+00000000 T mbedtls_ssl_set_hs_authmode
+00000000 T mbedtls_ssl_set_hs_ca_chain
+00000004 T mbedtls_ssl_set_hs_own_cert
+00000020 T mbedtls_ssl_set_hs_psk
+00000008 T mbedtls_ssl_set_session
+00000004 T mbedtls_ssl_set_timer_cb
+00000028 T mbedtls_ssl_setup
+00000004 T mbedtls_ssl_sig_from_pk
+00000014 T mbedtls_ssl_transform_free
+00000014 T mbedtls_ssl_write
+00000024 T mbedtls_ssl_write_certificate
+00000004 T mbedtls_ssl_write_change_cipher_spec
+00000008 T mbedtls_ssl_write_finished
+00000034 T mbedtls_ssl_write_record
+00000000 T mbedtls_ssl_write_version
+         U mbedtls_x509_crt_free
+         U mbedtls_x509_crt_init
+         U mbedtls_x509_crt_parse_der
+         U mbedtls_x509_crt_profile_default
+         U mbedtls_x509_crt_profile_suiteb
+         U mbedtls_x509_crt_verify_with_profile
+         U memcmp
+         U memcpy
+         U memmove
+         U memset
+         U pvPortCallocIram
+         U strlen
+         U vPortFree
+
+threading.o:
+
+timing.o:
+
+version.o:
+00000004 T mbedtls_version_get_number
+00000008 T mbedtls_version_get_string
+00000008 T mbedtls_version_get_string_full
+         U memcpy
+
+version_features.o:
+00000008 T mbedtls_version_check_feature
+         U strcmp
+
+x509.o:
+         U ets_snprintf
+         U mbedtls_asn1_get_alg
+         U mbedtls_asn1_get_alg_null
+         U mbedtls_asn1_get_bitstring_null
+         U mbedtls_asn1_get_len
+         U mbedtls_asn1_get_tag
+         U mbedtls_oid_get_attr_short_name
+         U mbedtls_oid_get_sig_alg
+         U mbedtls_oid_get_sig_alg_desc
+00000030 T mbedtls_x509_dn_gets
+00000004 T mbedtls_x509_get_alg
+00000004 T mbedtls_x509_get_alg_null
+0000000c T mbedtls_x509_get_ext
+00000030 T mbedtls_x509_get_name
+00000010 T mbedtls_x509_get_serial
+0000000c T mbedtls_x509_get_sig
+0000000c T mbedtls_x509_get_sig_alg
+00000044 T mbedtls_x509_get_time
+0000000c T mbedtls_x509_key_size_helper
+0000001c T mbedtls_x509_serial_gets
+00000018 T mbedtls_x509_sig_alg_gets
+00000000 T mbedtls_x509_time_is_future
+00000000 T mbedtls_x509_time_is_past
+         U memset
+         U pvPortCallocIram
+
+x509_create.o:
+         U mbedtls_asn1_free_named_data_list
+         U mbedtls_asn1_store_named_data
+         U mbedtls_asn1_write_algorithm_identifier
+         U mbedtls_asn1_write_bool
+         U mbedtls_asn1_write_ia5_string
+         U mbedtls_asn1_write_len
+         U mbedtls_asn1_write_oid
+         U mbedtls_asn1_write_printable_string
+         U mbedtls_asn1_write_raw_buffer
+         U mbedtls_asn1_write_tag
+0000000c T mbedtls_x509_set_extension
+00000024 T mbedtls_x509_string_to_names
+00000024 T mbedtls_x509_write_extensions
+0000002c T mbedtls_x509_write_names
+00000010 T mbedtls_x509_write_sig
+         U memcmp
+         U memcpy
+         U strlen
+         U strncmp
+
+x509_crl.o:
+         U ets_snprintf
+         U mbedtls_asn1_get_int
+         U mbedtls_asn1_get_tag
+         U mbedtls_pem_free
+         U mbedtls_pem_init
+         U mbedtls_pem_read_buffer
+00000014 T mbedtls_x509_crl_free
+00000058 T mbedtls_x509_crl_info
+00000004 T mbedtls_x509_crl_init
+00000028 T mbedtls_x509_crl_parse
+000000c4 T mbedtls_x509_crl_parse_der
+         U mbedtls_x509_dn_gets
+         U mbedtls_x509_get_alg
+         U mbedtls_x509_get_ext
+         U mbedtls_x509_get_name
+         U mbedtls_x509_get_serial
+         U mbedtls_x509_get_sig
+         U mbedtls_x509_get_sig_alg
+         U mbedtls_x509_get_time
+         U mbedtls_x509_serial_gets
+         U mbedtls_x509_sig_alg_gets
+         U memcmp
+         U memcpy
+         U memset
+         U pvPortCallocIram
+         U vPortFree
+
+x509_crt.o:
+         U ets_snprintf
+         U mbedtls_asn1_get_bitstring
+         U mbedtls_asn1_get_bool
+         U mbedtls_asn1_get_int
+         U mbedtls_asn1_get_len
+         U mbedtls_asn1_get_sequence_of
+         U mbedtls_asn1_get_tag
+         U mbedtls_md
+         U mbedtls_md_get_size
+         U mbedtls_md_info_from_type
+         U mbedtls_oid_get_extended_key_usage
+         U mbedtls_oid_get_x509_ext_type
+         U mbedtls_pem_free
+         U mbedtls_pem_init
+         U mbedtls_pem_read_buffer
+         U mbedtls_pk_free
+         U mbedtls_pk_get_bitlen
+         U mbedtls_pk_get_name
+         U mbedtls_pk_get_type
+         U mbedtls_pk_parse_subpubkey
+         U mbedtls_pk_verify_ext
+00000050 T mbedtls_x509_crt_free
+00000140 T mbedtls_x509_crt_info
+00000004 T mbedtls_x509_crt_init
+00000008 T mbedtls_x509_crt_is_revoked
+00000038 T mbedtls_x509_crt_parse
+00000118 T mbedtls_x509_crt_parse_der
+00000020 R mbedtls_x509_crt_profile_default
+00000010 R mbedtls_x509_crt_profile_next
+00000000 R mbedtls_x509_crt_profile_suiteb
+00000008 T mbedtls_x509_crt_verify
+0000000c T mbedtls_x509_crt_verify_info
+00000050 T mbedtls_x509_crt_verify_with_profile
+         U mbedtls_x509_dn_gets
+         U mbedtls_x509_get_alg
+         U mbedtls_x509_get_ext
+         U mbedtls_x509_get_name
+         U mbedtls_x509_get_serial
+         U mbedtls_x509_get_sig
+         U mbedtls_x509_get_sig_alg
+         U mbedtls_x509_get_time
+         U mbedtls_x509_key_size_helper
+         U mbedtls_x509_serial_gets
+         U mbedtls_x509_sig_alg_gets
+         U mbedtls_x509_time_is_future
+         U mbedtls_x509_time_is_past
+         U memcmp
+         U memcpy
+         U memset
+         U pvPortCallocIram
+         U strlen
+         U strstr
+         U vPortFree
+
+x509_csr.o:
+         U ets_snprintf
+         U mbedtls_asn1_get_int
+         U mbedtls_asn1_get_tag
+         U mbedtls_pem_free
+         U mbedtls_pem_init
+         U mbedtls_pem_read_buffer
+         U mbedtls_pk_free
+         U mbedtls_pk_get_bitlen
+         U mbedtls_pk_get_name
+         U mbedtls_pk_parse_subpubkey
+00000010 T mbedtls_x509_csr_free
+00000038 T mbedtls_x509_csr_info
+00000004 T mbedtls_x509_csr_init
+00000028 T mbedtls_x509_csr_parse
+0000006c T mbedtls_x509_csr_parse_der
+         U mbedtls_x509_dn_gets
+         U mbedtls_x509_get_alg
+         U mbedtls_x509_get_name
+         U mbedtls_x509_get_sig
+         U mbedtls_x509_get_sig_alg
+         U mbedtls_x509_key_size_helper
+         U mbedtls_x509_sig_alg_gets
+         U memcpy
+         U memset
+         U pvPortCallocIram
+         U vPortFree
+
+x509write_crt.o:
+         U mbedtls_asn1_free_named_data_list
+         U mbedtls_asn1_write_algorithm_identifier
+         U mbedtls_asn1_write_bitstring
+         U mbedtls_asn1_write_bool
+         U mbedtls_asn1_write_int
+         U mbedtls_asn1_write_len
+         U mbedtls_asn1_write_mpi
+         U mbedtls_asn1_write_raw_buffer
+         U mbedtls_asn1_write_tag
+         U mbedtls_md
+         U mbedtls_md_info_from_type
+         U mbedtls_mpi_copy
+         U mbedtls_mpi_free
+         U mbedtls_mpi_init
+         U mbedtls_oid_get_oid_by_sig_alg
+         U mbedtls_pem_write_buffer
+         U mbedtls_pk_get_type
+         U mbedtls_pk_sign
+         U mbedtls_pk_write_pubkey
+         U mbedtls_pk_write_pubkey_der
+         U mbedtls_sha1
+         U mbedtls_x509_set_extension
+         U mbedtls_x509_string_to_names
+         U mbedtls_x509_write_extensions
+         U mbedtls_x509_write_names
+         U mbedtls_x509_write_sig
+000000a0 T mbedtls_x509write_crt_der
+00000010 T mbedtls_x509write_crt_free
+00000008 T mbedtls_x509write_crt_init
+00000018 T mbedtls_x509write_crt_pem
+0000002c T mbedtls_x509write_crt_set_authority_key_identifier
+00000020 T mbedtls_x509write_crt_set_basic_constraints
+00000004 T mbedtls_x509write_crt_set_extension
+00000000 T mbedtls_x509write_crt_set_issuer_key
+00000004 T mbedtls_x509write_crt_set_issuer_name
+00000010 T mbedtls_x509write_crt_set_key_usage
+00000000 T mbedtls_x509write_crt_set_md_alg
+0000000c T mbedtls_x509write_crt_set_ns_cert_type
+00000004 T mbedtls_x509write_crt_set_serial
+00000000 T mbedtls_x509write_crt_set_subject_key
+00000024 T mbedtls_x509write_crt_set_subject_key_identifier
+00000004 T mbedtls_x509write_crt_set_subject_name
+00000014 T mbedtls_x509write_crt_set_validity
+00000000 T mbedtls_x509write_crt_set_version
+         U memcpy
+         U memset
+         U strlen
+         U strncpy
+
+x509write_csr.o:
+         U mbedtls_asn1_free_named_data_list
+         U mbedtls_asn1_write_bitstring
+         U mbedtls_asn1_write_int
+         U mbedtls_asn1_write_len
+         U mbedtls_asn1_write_oid
+         U mbedtls_asn1_write_tag
+         U mbedtls_md
+         U mbedtls_md_info_from_type
+         U mbedtls_oid_get_oid_by_sig_alg
+         U mbedtls_pem_write_buffer
+         U mbedtls_pk_get_type
+         U mbedtls_pk_sign
+         U mbedtls_pk_write_pubkey_der
+         U mbedtls_x509_set_extension
+         U mbedtls_x509_string_to_names
+         U mbedtls_x509_write_extensions
+         U mbedtls_x509_write_names
+         U mbedtls_x509_write_sig
+0000008c T mbedtls_x509write_csr_der
+00000008 T mbedtls_x509write_csr_free
+00000004 T mbedtls_x509write_csr_init
+00000018 T mbedtls_x509write_csr_pem
+00000004 T mbedtls_x509write_csr_set_extension
+00000000 T mbedtls_x509write_csr_set_key
+0000000c T mbedtls_x509write_csr_set_key_usage
+00000000 T mbedtls_x509write_csr_set_md_alg
+0000000c T mbedtls_x509write_csr_set_ns_cert_type
+00000004 T mbedtls_x509write_csr_set_subject_name
+         U memcpy
+         U memset
+
+xtea.o:
+00000014 T mbedtls_xtea_crypt_cbc
+0000000c T mbedtls_xtea_crypt_ecb
+00000000 T mbedtls_xtea_free
+00000004 T mbedtls_xtea_init
+00000004 T mbedtls_xtea_setup
+         U memcpy
+         U memset

@@ -1,0 +1,202 @@
+
+aes-internal-enc.o:
+         U Te0
+00000004 T aes_encrypt
+0000000c T aes_encrypt_deinit
+00000010 T aes_encrypt_init
+         U ets_memset
+         U pvPortMalloc
+00000010 T rijndaelEncrypt
+         U rijndaelKeySetupEnc
+         U vPortFree
+
+sha256-internal.o:
+         U ets_memcpy
+00000008 T sha256_done
+00000020 T sha256_init
+0000000c T sha256_process
+0000000c T sha256_vector
+
+aes-internal.o:
+         U Te0
+         U rcons
+00000014 T rijndaelKeySetupEnc
+
+aes-internal-dec.o:
+         U Td0
+         U Td4s
+         U Te0
+00000008 T aes_decrypt
+0000000c T aes_decrypt_deinit
+00000018 T aes_decrypt_init
+         U ets_memset
+         U pvPortMalloc
+         U rijndaelKeySetupEnc
+         U vPortFree
+
+aes-cbc.o:
+00000018 T aes_128_cbc_decrypt
+00000014 T aes_128_cbc_encrypt
+         U aes_decrypt
+         U aes_decrypt_deinit
+         U aes_decrypt_init
+         U aes_encrypt
+         U aes_encrypt_deinit
+         U aes_encrypt_init
+         U ets_memcpy
+
+crypto_internal-rsa.o:
+00000004 T crypto_private_key_decrypt_pkcs1_v15
+00000004 T crypto_private_key_free
+0000000c T crypto_private_key_import
+00000004 T crypto_private_key_sign_pkcs1
+00000004 T crypto_public_key_decrypt_pkcs1
+00000004 T crypto_public_key_encrypt_pkcs1_v15
+00000004 T crypto_public_key_free
+00000000 T crypto_public_key_from_cert
+00000004 T crypto_public_key_import
+         U crypto_rsa_free
+         U crypto_rsa_import_private_key
+         U crypto_rsa_import_public_key
+         U pkcs1_decrypt_public_key
+         U pkcs1_encrypt
+         U pkcs1_v15_private_key_decrypt
+         U pkcs8_enc_key_import
+         U pkcs8_key_import
+
+des-internal.o:
+0000005c T des_encrypt
+         U ets_memcpy
+         U ets_memset
+
+dh_group5.o:
+00000008 T dh5_derive_shared
+00000000 T dh5_free
+00000008 T dh5_init
+         U dh_derive_shared
+         U dh_groups_get
+         U dh_init
+
+crypto_internal.o:
+         U MD5Final
+         U MD5Init
+         U MD5Update
+         U SHA1Final
+         U SHA1Init
+         U SHA1Update
+00000000 T crypto_global_deinit
+00000000 T crypto_global_init
+00000060 T crypto_hash_finish
+00000078 T crypto_hash_init
+0000000c T crypto_hash_update
+         U ets_memcpy
+         U ets_memset
+         U pvPortZalloc
+         U sha256_done
+         U sha256_init
+         U sha256_process
+         U vPortFree
+
+aes-wrap.o:
+         U aes_encrypt
+         U aes_encrypt_deinit
+         U aes_encrypt_init
+00000024 T aes_wrap
+         U ets_memcpy
+         U ets_memset
+
+md4-internal.o:
+         U ets_memcpy
+         U ets_memset
+0000002c T md4_vector
+
+dh_groups.o:
+         U crypto_mod_exp
+00000010 T dh_derive_shared
+00000004 T dh_groups_get
+00000028 T dh_init
+         U ets_memcmp
+         U os_get_random
+         U wpabuf_alloc
+         U wpabuf_free
+         U wpabuf_put
+
+sha256.o:
+         U ets_memcpy
+         U ets_memset
+         U ets_strlen
+00000004 T hmac_sha256
+0000001c T hmac_sha256_vector
+00000010 T sha256_prf
+         U sha256_vector
+
+bignum.o:
+         U __divsi3
+         U __modsi3
+         U __muldi3
+         U __umodsi3
+00000004 T bignum_add
+00000004 T bignum_cmp
+00000000 T bignum_cmp_d
+0000000c T bignum_deinit
+00000004 T bignum_exptmod
+00000018 T bignum_get_unsigned_bin
+00000004 T bignum_get_unsigned_bin_len
+00000010 T bignum_init
+00000004 T bignum_mul
+00000010 T bignum_mulmod
+00000010 T bignum_set_unsigned_bin
+00000004 T bignum_sub
+         U pvPortMalloc
+         U pvPortRealloc
+         U pvPortZalloc
+         U system_soft_wdt_feed
+         U vPortFree
+
+crypto_internal-modexp.o:
+         U bignum_deinit
+         U bignum_exptmod
+         U bignum_get_unsigned_bin
+         U bignum_init
+         U bignum_set_unsigned_bin
+00000034 T crypto_mod_exp
+
+crypto_internal-cipher.o:
+         U aes_decrypt
+         U aes_decrypt_deinit
+         U aes_decrypt_init
+         U aes_encrypt
+         U aes_encrypt_deinit
+         U aes_encrypt_init
+00000014 T crypto_cipher_decrypt
+00000010 T crypto_cipher_deinit
+00000010 T crypto_cipher_encrypt
+0000001c T crypto_cipher_init
+         U ets_memcpy
+         U pvPortZalloc
+         U rc4_skip
+         U vPortFree
+
+ms_funcs.o:
+00000010 T challenge_response
+         U des_encrypt
+00000014 T encrypt_pw_block_with_password_hash
+         U ets_memcpy
+         U ets_memmove
+         U ets_memset
+00000008 T generate_authenticator_response
+00000020 T generate_authenticator_response_pwhash
+0000000c T generate_nt_response
+00000008 T generate_nt_response_pwhash
+0000001c T get_asymetric_start_key
+00000010 T get_master_key
+00000004 T hash_nt_password_hash
+         U md4_vector
+00000008 T new_password_encrypted_with_old_nt_password_hash
+00000008 T nt_challenge_response
+00000008 T nt_password_hash
+00000008 T nt_password_hash_encrypted_with_block
+0000000c T old_nt_password_hash_encrypted_with_new_nt_password_hash
+         U os_get_random
+         U rc4_skip
+         U sha1_vector

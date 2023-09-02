@@ -1,0 +1,155 @@
+
+gpio16.o:
+00000074 T gpio16_input_conf
+000000b4 T gpio16_input_get
+0000000c T gpio16_output_conf
+0000004c T gpio16_output_set
+
+hw_timer.o:
+         U NmiTimSetFunc
+         U __udivsi3
+         U ets_isr_attach
+         U ets_isr_unmask
+00000010 T hw_timer_arm
+0000001c T hw_timer_init
+00000004 T hw_timer_set_func
+
+i2c_master.o:
+         U ets_delay_us
+         U ets_isr_mask
+         U ets_isr_unmask
+         U gpio_input_get
+         U gpio_output_set
+00000360 T i2c_master_checkAck
+000002fc T i2c_master_getAck
+000001c8 T i2c_master_gpio_init
+00000138 T i2c_master_init
+000003c8 T i2c_master_readByte
+00000378 T i2c_master_send_ack
+0000038c T i2c_master_send_nack
+00000278 T i2c_master_setAck
+00000088 T i2c_master_start
+000000dc T i2c_master_stop
+00000490 T i2c_master_writeByte
+
+key.o:
+         U ets_isr_attach
+         U ets_isr_mask
+         U ets_isr_unmask
+         U ets_timer_arm_new
+         U ets_timer_disarm
+         U ets_timer_setfn
+         U gpio_input_get
+         U gpio_output_set
+         U gpio_pin_intr_state_set
+         U gpio_register_set
+00000114 T key_init
+000000ac T key_init_single
+         U pvPortZallocIram
+
+sdio_slv.o:
+00000000 B data_len
+         U ets_isr_attach
+         U ets_isr_mask
+         U ets_isr_unmask
+         U ets_memcpy
+         U os_printf_plus
+00000004 C pHead_Sended
+00000004 C pHead_ToSend
+00000004 C pTail_Sended
+00000004 C pTail_ToSend
+         U pvPortMalloc
+0000000c C rx_que
+00000004 C sdioQueue
+00000034 T sdio_load_data
+00000004 T sdio_register_recv_cb
+00000098 T sdio_slave_init
+00000200 C tx_buffer
+0000000c C tx_que
+
+spi.o:
+00000004 T cache_flush
+         U ets_isr_attach
+         U ets_isr_unmask
+000003d0 T gpio_init
+         U gpio_output_set
+         U os_printf_plus
+00000004 C spiQueue
+00000194 T spi_byte_read_espslave
+00000120 T spi_byte_write_espslave
+00000054 T spi_lcd_9bit_write
+000000b8 T spi_mast_byte_write
+0000000c T spi_master_init
+0000024c T spi_slave_init
+00000028 T spi_slave_isr_handler
+
+spi_interface.o:
+00000b6c T SPICsPinSelect
+00000098 T SPIInit
+00000018 T SPIIntCfg
+00000be4 T SPIIntClear
+00000bc0 T SPIIntDisable
+00000b9c T SPIIntEnable
+00000414 T SPIMasterCfgAddr
+00000430 T SPIMasterCfgCmd
+0000072c T SPIMasterRecvData
+00000acc T SPIMasterRecvStatus
+00000498 T SPIMasterSendData
+00000a1c T SPIMasterSendStatus
+000009cc T SPISlaveRecvData
+0000097c T SPISlaveSendData
+         U __udivsi3
+         U ets_isr_attach
+         U ets_isr_unmask
+         U os_printf_plus
+
+spi_overlap.o:
+         U gpio_output_set
+00000050 C hspi_dev_reg
+000003f0 T hspi_dev_sel
+000001bc T hspi_master_dev_init
+0000006c T hspi_overlap_deinit
+000009b8 T hspi_overlap_flash_init
+00000010 T hspi_overlap_init
+000008d4 T hspi_overlap_read_flash_data
+         U os_printf_plus
+         U spi_flash_set_read_func
+         U spi_master_init
+000000c0 T spi_reg_backup
+00000118 T spi_reg_recover
+
+uart.o:
+00000594 T UART_CheckOutputFinished
+0000063c T UART_ClearIntrStatus
+00000604 T UART_ResetFifo
+00000400 T UART_SetBaudrate
+0000044c T UART_SetFlowCtrl
+00000658 T UART_SetIntrEna
+00000388 T UART_SetLineInverse
+000003bc T UART_SetParity
+0000068c T UART_SetPrintPort
+00000354 T UART_SetStopBits
+00000328 T UART_SetWordLength
+00000528 T UART_WaitTxFifoEmpty
+         U UartDev
+         U __udivsi3
+000001e4 T at_port_print
+         U ets_install_putc1
+         U ets_isr_attach
+         U ets_isr_unmask
+         U system_get_time
+         U system_os_post
+         U system_os_task
+000001e4 T uart0_sendStr
+000001a4 T uart0_tx_buffer
+00000008 T uart0_tx_one_char_no_wait
+00000004 T uart1_sendStr_no_wait
+         U uart_div_modify
+0000021c T uart_init
+000006c8 T uart_init_2
+00000268 T uart_reattach
+00000050 C uart_recvTaskQueue
+00000004 T uart_rx_intr_disable
+00000004 T uart_rx_intr_enable
+00000008 T uart_tx_one_char
+00000008 T uart_tx_one_char_no_wait
