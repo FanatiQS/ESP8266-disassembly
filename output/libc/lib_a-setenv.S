@@ -1,0 +1,45 @@
+
+output/libc/lib_a-setenv.o:     file format elf32-xtensa-le
+
+
+Disassembly of section .literal:
+
+00000000 <.literal>:
+	...
+	0: R_XTENSA_32	_impure_ptr
+	4: R_XTENSA_32	_setenv_r
+	8: R_XTENSA_32	_impure_ptr
+	c: R_XTENSA_32	_unsetenv_r
+
+Disassembly of section .text:
+
+00000000 <setenv>:
+   0:	027d      	mov.n	a7, a2
+   2:	000021        	l32r	a2, fffc0004 <unsetenv+0xfffbffe0>	2: R_XTENSA_SLOT0_OP	.literal
+   5:	036d      	mov.n	a6, a3
+   7:	0228      	l32i.n	a2, a2, 0
+   9:	f0c112        	addi	a1, a1, -16
+   c:	045d      	mov.n	a5, a4
+   e:	073d      	mov.n	a3, a7
+  10:	064d      	mov.n	a4, a6
+  12:	3109      	s32i.n	a0, a1, 12
+  14:	000001        	l32r	a0, fffc0014 <unsetenv+0xfffbfff0>	14: R_XTENSA_SLOT0_OP	.literal+0x4
+	14: R_XTENSA_ASM_EXPAND	_setenv_r
+  17:	0000c0        	callx0	a0
+  1a:	3108      	l32i.n	a0, a1, 12
+  1c:	10c112        	addi	a1, a1, 16
+  1f:	f00d      	ret.n
+  21:	000000        	ill
+
+00000024 <unsetenv>:
+  24:	023d      	mov.n	a3, a2
+  26:	000021        	l32r	a2, fffc0028 <unsetenv+0xfffc0004>	26: R_XTENSA_SLOT0_OP	.literal+0x8
+  29:	f0c112        	addi	a1, a1, -16
+  2c:	0228      	l32i.n	a2, a2, 0
+  2e:	3109      	s32i.n	a0, a1, 12
+  30:	000001        	l32r	a0, fffc0030 <unsetenv+0xfffc000c>	30: R_XTENSA_SLOT0_OP	.literal+0xc
+	30: R_XTENSA_ASM_EXPAND	_unsetenv_r
+  33:	0000c0        	callx0	a0
+  36:	3108      	l32i.n	a0, a1, 12
+  38:	10c112        	addi	a1, a1, 16
+  3b:	f00d      	ret.n

@@ -1,0 +1,23 @@
+
+output/libc/lib_a-s_isnan.o:     file format elf32-xtensa-le
+
+
+Disassembly of section .literal:
+
+00000000 <.literal>:
+   0:	ff ff ff 7f 	
+   4:	00 00 f0 7f 	
+
+Disassembly of section .text:
+
+00000000 <isnan>:
+   0:	604020        	neg	a4, a2
+   3:	204420        	or	a4, a4, a2
+   6:	000021        	l32r	a2, fffc0008 <isnan+0xfffc0008>	6: R_XTENSA_SLOT0_OP	.literal
+   9:	054f40        	extui	a4, a4, 31, 1
+   c:	102230        	and	a2, a2, a3
+   f:	000031        	l32r	a3, fffc0010 <isnan+0xfffc0010>	f: R_XTENSA_SLOT0_OP	.literal+0x4
+  12:	202420        	or	a2, a4, a2
+  15:	c02320        	sub	a2, a3, a2
+  18:	052f20        	extui	a2, a2, 31, 1
+  1b:	f00d      	ret.n
